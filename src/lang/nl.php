@@ -189,22 +189,23 @@ $language = "nl";
             $projects_mywebsite_nav_title = "Extras";
             $projects_mywebsite_nav_desc_line1 = "Open-source";
             $projects_mywebsite_nav_desc_line2 = "In development";
-            $projects_mywebsite_nav_desc_line3 = "GitHub link coming soon";
-            $projects_mywebsite_nav_link1_action = "View online";
-            $projects_mywebsite_nav_link1_icon = "fa-external-link"; //Font Awesome
-            $projects_mywebsite_nav_link1_url = "#";
+            $projects_mywebsite_nav_desc_line3 = "Adding progress bar for skills";
+            $projects_mywebsite_nav_link1_action = "View on GitHub";
+            $projects_mywebsite_nav_link1_icon = "fa-github"; //Font Awesome
+            $projects_mywebsite_nav_link1_url = "https://github.com/regisandre/cv-website";
 
-            //Multi Stream Tips
-            $projects_multistreamtips_title = "Multi Stream Tips";
-            $projects_multistreamtips_description = "Page generator for creators who wish to display several means of financial aid in a single link";
-            $projects_multistreamtips_nav_title = "Extras";
-            $projects_multistreamtips_nav_desc_line1 = "Open-source";
-            $projects_multistreamtips_nav_desc_line2 = "Will be renamed Multi Tips";
-            $projects_multistreamtips_nav_desc_line3 = "Update soon";
-            $projects_multistreamtips_nav_desc_line4 = "GitHub link coming soon";
-            $projects_multistreamtips_nav_link1_action = "View online";
-            $projects_multistreamtips_nav_link1_icon = "fa-external-link"; //Font Awesome
-            $projects_multistreamtips_nav_link1_url = "#";
+            //Multi Tips
+            $projects_multitips_title = "Multi Tips";
+            $projects_multitips_description = "Page generator for creators who wish to display several means of financial aid in a single link";
+            $projects_multitips_nav_title = "Extras";
+            $projects_multitips_nav_desc_line1 = "Open-source";
+            $projects_multitips_nav_desc_line2 = "In development";
+            $projects_multitips_nav_link1_action = "View on GitHub";
+            $projects_multitips_nav_link1_icon = "fa-github"; //Font Awesome
+            $projects_multitips_nav_link1_url = "https://github.com/regisandre/Multi-Tips";
+            $projects_multitips_nav_link2_action = "View Online";
+            $projects_multitips_nav_link2_icon = "fa-external-link"; //Font Awesome
+            $projects_multitips_nav_link2_url = "https://regisandre.be/multitips/link.php";
 
         //End of projects section
 

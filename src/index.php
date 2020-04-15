@@ -587,7 +587,7 @@ if($lang=="en") {
 										<li><?php echo $projects_mywebsite_nav_desc_line3; ?></li>
 									</ul>
 									<div class="card-action">
-										<a aria-label="Visit project web site" href="<?php echo $projects_mywebsite_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_mywebsite_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multistreamtips_nav_link1_icon; ?>"></i></a>
+										<a aria-label="Visit project web site" href="<?php echo $projects_mywebsite_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_mywebsite_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
 									</div>
 								</div>
 							</div>
@@ -598,21 +598,20 @@ if($lang=="en") {
 									<img alt="Screenshot of the project" src="./assets/img/projects/multi_stream_tips.gif" class="activator">
 								</div>
 								<div class="card-content">
-									<span class="card-title activator teal-text hoverline"><?php echo $projects_multistreamtips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
+									<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
 									<p>
-										<?php echo $projects_multistreamtips_description; ?>
+										<?php echo $projects_multitips_description; ?>
 									</p>
 								</div>
 								<div class="card-reveal">
-									<span class="card-title brown-text"><?php echo $projects_multistreamtips_nav_title; ?><i class="mdi-navigation-close right"></i></span>
+									<span class="card-title brown-text"><?php echo $projects_multitips_nav_title; ?><i class="mdi-navigation-close right"></i></span>
 									<ul>
-										<li><?php echo $projects_multistreamtips_nav_desc_line1; ?></li>
-										<li><?php echo $projects_multistreamtips_nav_desc_line2; ?></li>
-										<li><?php echo $projects_multistreamtips_nav_desc_line3; ?></li>
-										<li><?php echo $projects_multistreamtips_nav_desc_line4; ?></li>
+										<li><?php echo $projects_multitips_nav_desc_line1; ?></li>
+										<li><?php echo $projects_multitips_nav_desc_line2; ?></li>
 									</ul>
 									<div class="card-action">
-										<a aria-label="Visit project web site" href="<?php echo $projects_multistreamtips_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multistreamtips_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multistreamtips_nav_link1_icon; ?>"></i></a>
+										<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
+										<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link2_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link2_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link2_icon; ?>"></i></a>
 									</div>
 								</div>
 							</div>
