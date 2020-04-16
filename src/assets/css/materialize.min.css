@@ -7195,6 +7195,11 @@ footer.page-footer .footer-copyright {
 	display: block
 }
 
+.card .card-reveal .card-title i {
+	position: relative;
+	top: 0;
+}
+
 #toast-container {
 	display: block;
 	position: fixed;

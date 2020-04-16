@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ /en [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ /fr [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^nl [NC]
+RewriteRule ^$ /nl [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(en|fr|nl)/?$ index.php?lang=$1 [QSA,NC,L]

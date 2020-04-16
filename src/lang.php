@@ -21,7 +21,7 @@ if($_COOKIE['lang'] == $_GET["lang"]) {
 
 switch($lang) {
 	case $lang:
-		include('lang/'.$lang.'.php');
+		include('./assets/lang/'.$lang.'.php');
 	break;
 }
 ?>
