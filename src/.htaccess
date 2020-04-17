@@ -15,5 +15,15 @@ RewriteRule ^$ /nl [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
-
 RewriteRule ^(en|fr|nl)/?$ index.php?lang=$1 [QSA,NC,L]
+
+#https://varvy.com/pagespeed/cache-control.html
+# One year for image and fonts files
+<filesMatch "\.(jpg|jpeg|png|gif|ico|webp|woff2|tff)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+# One month for css and js and documents
+<filesMatch "\.(css|js|pdf|swf)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
