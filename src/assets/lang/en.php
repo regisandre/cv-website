@@ -65,9 +65,10 @@ $language = "en";
     		$education_netacad_url = "https://www.netacad.com/";
     		$education_netacad_location = "E-learning, Internet";
     		$education_netacad_desc_line1 = "(Soon 29/05/2020) CCNA R&S : Routing and Switching Essentials";
-    		$education_netacad_desc_line2 = "(23/03/2020) CCNA IoT : Introduction to IoT - Cisco Networking Academy";
-    		$education_netacad_desc_line3 = "(12/02/2020) CCNA IoT : Introduction to the IoE";
-    		$education_netacad_desc_line4 = "(25/02/2019) CCNA R&S : Introduction to Networks";
+            $education_netacad_desc_line2 = "(17/04/2020) CCNAv7 Bridging SRWE & ENSA";
+    		$education_netacad_desc_line3 = "(23/03/2020) CCNA IoT : Introduction to IoT - Cisco Networking Academy";
+    		$education_netacad_desc_line4 = "(12/02/2020) CCNA IoT : Introduction to the IoE";
+    		$education_netacad_desc_line5 = "(25/02/2019) CCNA R&S : Introduction to Networks";
 
     		//Google Digital Garage
     		$education_googledigitalgarage_title = "Google Digital Garage";

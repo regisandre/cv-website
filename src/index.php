@@ -229,6 +229,7 @@ if($lang=="en") {
 										<li><?php echo $education_netacad_desc_line2; ?></li>
 										<li><?php echo $education_netacad_desc_line3; ?></li>
 										<li><?php echo $education_netacad_desc_line4; ?></li>
+										<li><?php echo $education_netacad_desc_line5; ?></li>
 									</ul>
 								</div>
 							</div>
