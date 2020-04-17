@@ -596,7 +596,7 @@ if($lang=="en") {
 						<div class="col s12 m6 l4">
 							<div class="card medium">
 								<div class="card-image waves-effect waves-block waves-light">
-									<img alt="Screenshot of the project" src="./assets/img/projects/multi_tips.gif" class="activator">
+									<img alt="Screenshot of the project" src="./assets/img/projects/multi_tips.webp" class="activator">
 								</div>
 								<div class="card-content">
 									<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
