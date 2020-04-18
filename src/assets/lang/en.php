@@ -259,7 +259,7 @@ $language = "en";
 
 			//Régis's GitHub
 			$contact_github_title = "Régis's GitHub";
-			$contact_github_url = "https://github.com/sioxox";
+			$contact_github_url = "https://github.com/regisandre";
 			$contact_github_icon = "fa-github"; //Font Awesome
 			$contact_github_action = "View Régis on GitHub";
 			$contact_github_label = "Régis's GitHub";
