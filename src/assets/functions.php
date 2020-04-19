@@ -1,4 +1,5 @@
 <?php
+// Skills progress bar
 function progressBar($level, $percentage) {
 	global $skills_level_novice, $skills_level_intermediate, $skills_level_advanced;
 
