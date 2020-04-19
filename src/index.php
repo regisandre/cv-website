@@ -1,7 +1,4 @@
 <?php
-test
-oh yeah
-no
 require("./lang.php");
 require("./assets/functions.php");
 if($lang=="en") {
