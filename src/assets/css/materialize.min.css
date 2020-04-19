@@ -6214,7 +6214,6 @@ input[type=range]+.thumb {
 	width: 33.33333%;
 	margin-left: 0;
 	position: relative;
-	display: block;
 }
 
 .level-reveal {
@@ -6234,6 +6233,7 @@ input[type=range]+.thumb {
 	top: 30%;
 	margin-left: auto;
     margin-right: auto;
+    text-align: center;
 	width: 80%;
 }
 

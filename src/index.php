@@ -1,6 +1,6 @@
 <?php
 require("./lang.php");
-require("./assets/progressbar.php");
+require("./assets/functions.php");
 if($lang=="en") {
 	$flag="gb";
 } else {
@@ -479,7 +479,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_webdev_html5; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_html5_level); ?>
+											<?php progressBar($skills_webdev_html5_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -487,7 +487,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_webdev_css3; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_css3_level); ?>
+											<?php progressBar($skills_webdev_css3_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -495,7 +495,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_webdev_php; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_php_level); ?>
+											<?php progressBar($skills_webdev_php_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -503,7 +503,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_webdev_mysql; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_mysql_level); ?>
+											<?php progressBar($skills_webdev_mysql_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -511,7 +511,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_webdev_js; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_js_level); ?>
+											<?php progressBar($skills_webdev_js_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -526,7 +526,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_softdev_java; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_softdev_java_level); ?>
+											<?php progressBar($skills_softdev_java_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -534,7 +534,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_softdev_c; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_softdev_c_level); ?>
+											<?php progressBar($skills_softdev_c_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -549,7 +549,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_sccm_level); ?>
+											<?php progressBar($skills_ittools_sccm_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -557,7 +557,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_vmware_level); ?>
+											<?php progressBar($skills_ittools_vmware_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -565,7 +565,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_jira_level); ?>
+											<?php progressBar($skills_ittools_jira_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -573,7 +573,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_confluence_level); ?>
+											<?php progressBar($skills_ittools_confluence_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -581,7 +581,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_microsoftad_level); ?>
+											<?php progressBar($skills_ittools_microsoftad_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -589,7 +589,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_infoblox_level); ?>
+											<?php progressBar($skills_ittools_infoblox_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -597,7 +597,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_ittools_nexthink_level); ?>
+											<?php progressBar($skills_ittools_nexthink_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -612,7 +612,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_editiontools_photoshop_level); ?>
+											<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -620,7 +620,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_editiontools_premierepro_level); ?>
+											<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -635,7 +635,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/fw-b.webp" class="responsive-img"><?php echo $skills_language_fr; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_language_fr_level); ?>
+											<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
  										</div>
 									</div>
 								</div>
@@ -643,7 +643,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/wallangues.webp" class="responsive-img"><?php echo $skills_language_en; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_language_en_level); ?>
+											<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
  										</div>
 									</div>
 								</div>
@@ -651,7 +651,7 @@ if($lang=="en") {
 									<img alt="" src="./assets/img/skills/flanders.webp" class="responsive-img"><?php echo $skills_language_nl; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_language_nl_level); ?>
+											<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
  										</div>
 									</div>
 								</div>

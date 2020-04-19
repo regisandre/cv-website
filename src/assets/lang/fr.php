@@ -154,55 +154,58 @@ $language = "fr";
 			//Web development
 			$skills_webdev_title = "Programmation Web";
 				$skills_webdev_html5 = "HTML5";
-                    $skills_webdev_html5_level = "Advanced"; // Must be in English
+                    $skills_webdev_html5_level = "Advanced"; // Must be in English if not common
                 $skills_webdev_css3 = "CSS3";
-                    $skills_webdev_css3_level = "Advanced"; // Must be in English
+                    $skills_webdev_css3_level = "Advanced"; // Must be in English if not common
                 $skills_webdev_php = "PHP";
-                    $skills_webdev_php_level = "Intermediate"; // Must be in English
+                    $skills_webdev_php_level = "Intermediate"; // Must be in English if not common
                 $skills_webdev_mysql = "MySQL";
-                    $skills_webdev_mysql_level = "Intermediate"; // Must be in English
+                    $skills_webdev_mysql_level = "Intermediate"; // Must be in English if not common
                 $skills_webdev_js = "Javascript";
-                    $skills_webdev_js_level = "Novice"; // Must be in English
+                    $skills_webdev_js_level = "Novice"; // Must be in English if not common
 
 			//Software developement
 			$skills_softdev_title = "Programmation logicielle";
 				$skills_softdev_java = "Java";
-                    $skills_softdev_java_level = "Intermediate"; // Must be in English
+                    $skills_softdev_java_level = "Intermediate"; // Must be in English if not common
                 $skills_softdev_c = "C";
-                    $skills_softdev_c_level = "Novice"; // Must be in English
+                    $skills_softdev_c_level = "Novice"; // Must be in English if not common
 
 			//IT Tools
 			$skills_ittools_title = "Outils IT";
 				$skills_ittools_sccm = "SCCM";
-                    $skills_ittools_sccm_level = "Intermediate"; // Must be in English
+                    $skills_ittools_sccm_level = "Intermediate"; // Must be in English if not common
                 $skills_ittools_vmware = "VMWare";
-                    $skills_ittools_vmware_level = "Advanced"; // Must be in English
+                    $skills_ittools_vmware_level = "Advanced"; // Must be in English if not common
                 $skills_ittools_jira = "Jira";
-                    $skills_ittools_jira_level = "Advanced"; // Must be in English
+                    $skills_ittools_jira_level = "Advanced"; // Must be in English if not common
                 $skills_ittools_confluence = "Confluence";
-                    $skills_ittools_confluence_level = "Intermediate"; // Must be in English
+                    $skills_ittools_confluence_level = "Intermediate"; // Must be in English if not common
                 $skills_ittools_microsoftad = "Microsoft AD";
-                    $skills_ittools_microsoftad_level = "Intermediate"; // Must be in English
+                    $skills_ittools_microsoftad_level = "Intermediate"; // Must be in English if not common
                 $skills_ittools_infoblox = "Infoblox";
-                    $skills_ittools_infoblox_level = "Intermediate"; // Must be in English
+                    $skills_ittools_infoblox_level = "Intermediate"; // Must be in English if not common
                 $skills_ittools_nexthink = "Nexthink";
-                    $skills_ittools_nexthink_level = "Intermediate"; // Must be in English
+                    $skills_ittools_nexthink_level = "Intermediate"; // Must be in English if not common
 
 			//Edition tools
             $skills_editiontools_title = "Outils d'édition";
                 $skills_editiontools_photoshop = "Adobe Photoshop";
-                    $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English
+                    $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English if not common
                 $skills_editiontools_premierepro = "Adobe Premiere Pro";
-                    $skills_editiontools_premierepro_level = "Advanced"; // Must be in English
+                    $skills_editiontools_premierepro_level = "Advanced"; // Must be in English if not common
 
 			//Language
 			$skills_language_title = "Langues";
-                $skills_language_fr = "Français - LM";
-                    $skills_language_fr_level = "Advanced"; // Must be in English
-                $skills_language_en = "Anglais - A2+";
-                    $skills_language_en_level = "Intermediate"; // Must be in English
-                $skills_language_nl = "Néerlandais - Secondaire 1ère langue";
-                    $skills_language_nl_level = "Novice"; // Must be in English
+                $skills_language_fr = "Français";
+                    $skills_language_fr_level = "Langue maternelle"; // Must be in English if not common
+                    $skills_language_fr_level_percentage = "100%";
+                $skills_language_en = "Anglais";
+                    $skills_language_en_level = "A2+"; // Must be in English if not common
+                    $skills_language_en_level_percentage = "50%";
+                $skills_language_nl = "Néerlandais";
+                    $skills_language_nl_level = "Notions"; // Must be in English if not common
+                    $skills_language_nl_level_percentage = "15%";
 
 		//End of skills section
 
