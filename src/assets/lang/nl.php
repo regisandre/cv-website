@@ -39,8 +39,12 @@ $language = "nl";
     //End of navigation
 
     //Main
-    $description_part1 = "Will be completely translated soon<br>One word, one gesture and ";
-    $description_part2 = " does the rest";
+    	// The intro description must contain spaces for each part
+	    $intro_description = "I'm a";
+	    $intro_description .= " <span class='teal'>passionate</span>";
+	    $intro_description .= " <span class='underline'>who wants to make her</span>";
+	    $intro_description .= " <span class='teal'>dreams</span>";
+	    $intro_description .= " come true";
 
         //About section
         $about_title = "About";

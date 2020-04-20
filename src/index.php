@@ -168,8 +168,7 @@ if($lang=="en") {
 				<div class="overlay"></div>
 				<div class="container">
 					<h2>
-						<?php echo $description_part1; ?><span class="teal">Régis</span><br>
-						<span class="underline"><?php echo $description_part2; ?></span>
+						<?php echo $intro_description; ?>
 					</h2>
 				</div>
 			</section>

@@ -39,8 +39,12 @@ $language = "fr";
     //End of navigation
 
     //Main
-    $description_part1 = "Un mot, un geste et ";
-    $description_part2 = " fait le reste";
+	    // The intro description must contain spaces for each part
+	    $intro_description = "Je suis un";
+	    $intro_description .= " <span class='teal'>passionné</span>";
+	    $intro_description .= " <span class='underline'>qui veut faire de ses</span>";
+	    $intro_description .= " <span class='teal'>rêves</span>";
+	    $intro_description .= " une réalité";
 
     	//About section
     	$about_title = "À propos";
