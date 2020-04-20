@@ -3,7 +3,7 @@ $language = "fr";
 //Index
 	//Header
     $title = "Régis ANDRÉ | Programmeur, Technicien IT, Administrateur réseau";
-    $meta_description = "Un mot un geste et Régis fait le reste";
+    $meta_description = "Je suis un passionné qui veut faire de ses rêves une réalité";
     $url = "regisandre.be/fr";
     $twitter_username = "Sioxox";
     $author = "Régis ANDRÉ";

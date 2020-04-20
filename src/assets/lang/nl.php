@@ -3,7 +3,7 @@ $language = "nl";
 //Index
     //Header
     $title = "Régis ANDRÉ | Developer, IT Technician, Network administrator";
-    $meta_description = "One word, one gesture and Régis does the rest";
+    $meta_description = "I'm a passionate who wants to make his dreams come true";
     $url = "regisandre.be/nl";
     $twitter_username = "Sioxox";
     $author = "Régis ANDRÉ";
@@ -42,7 +42,7 @@ $language = "nl";
     	// The intro description must contain spaces for each part
 	    $intro_description = "I'm a";
 	    $intro_description .= " <span class='teal'>passionate</span>";
-	    $intro_description .= " <span class='underline'>who wants to make her</span>";
+	    $intro_description .= " <span class='underline'>who wants to make his</span>";
 	    $intro_description .= " <span class='teal'>dreams</span>";
 	    $intro_description .= " come true";
 
