@@ -1,5 +1,14 @@
 RewriteEngine On
 
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
+
 RewriteCond %{HTTPS} !=on
 RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 
