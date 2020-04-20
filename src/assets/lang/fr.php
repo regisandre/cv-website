@@ -2,7 +2,7 @@
 $language = "fr";
 //Index
 	//Header
-    $title = "Régis ANDRÉ | Programmeur, Technicien IT, Administrateur réseau";
+    $title = "Régis ANDRÉ | Développeur, Technicien IT, Administrateur réseau";
     $meta_description = "Je suis un passionné qui veut faire de ses rêves une réalité";
     $url = "regisandre.be/fr";
     $twitter_username = "Sioxox";
@@ -12,7 +12,7 @@ $language = "fr";
     //Navigation
     $full_name = "Régis ANDRÉ";
     	//Large nav
-    	$large_nav_role = "Programmeur, Technicien IT, Admin. réseau";
+    	$large_nav_role = "Développeur, Technicien IT, Admin. réseau";
     	$large_nav_about = "À propos";
     	$large_nav_education = "Formations";
     	$large_nav_experience = "Expériences pro.";
@@ -25,7 +25,7 @@ $language = "fr";
     	//End of large nav
 
     	//Small nav
-    	$small_nav_role = "Programmeur | Technicien IT | Admin. réseau";
+    	$small_nav_role = "Développeur | Technicien IT | Admin. réseau";
     	$small_nav_about = "À propos";
     	$small_nav_education = "Formations";
     	$small_nav_experience = "Expériences pro.";
