@@ -631,7 +631,7 @@ if($lang=="en") {
 							<h4 class="brown-text light"><?php echo $skills_language_title; ?></h4>
 							<div class="row text-center">
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/fw-b.webp" class="responsive-img"><?php echo $skills_language_fr; ?>
+									<img alt="" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
@@ -639,7 +639,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/wallangues.webp" class="responsive-img"><?php echo $skills_language_en; ?>
+									<img alt="" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
@@ -647,7 +647,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/flanders.webp" class="responsive-img"><?php echo $skills_language_nl; ?>
+									<img alt="" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
