@@ -1021,11 +1021,11 @@
 }
 
 .teal {
-	background-color: #009688!important
+	background-color: #007fab!important /* #007fab */
 }
 
 .teal-text {
-	color: #009688!important
+	color: #007fab!important /* #007fab */
 }
 
 .teal.darken-1 {
@@ -2948,7 +2948,7 @@ span.badge.new:after {
 	height: 4px;
 	display: block;
 	width: 100%;
-	background-color: #acece6;
+	background-color: #4dc0e8;/* #acece6 */
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -2962,7 +2962,7 @@ span.badge.new:after {
 	background-color: inherit;
 	top: 0;
 	bottom: 0;
-	background-color: #26a69a;
+	background-color: #007fab; /* #26a69a */
 	-webkit-transition: width .3s linear;
 	-moz-transition: width .3s linear;
 	-o-transition: width .3s linear;
@@ -2971,7 +2971,7 @@ span.badge.new:after {
 }
 
 .progress .indeterminate {
-	background-color: #26a69a
+	background-color: #007fab /* #26a69a */
 }
 
 .progress .indeterminate:before {

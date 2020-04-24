@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color: #009688
+	color: #007fab /* #007fab */
 }
 
 blockquote {
@@ -235,7 +235,7 @@ h3 {
 }
 
 #intro.section .underline {
-	border-bottom: 5px solid #009688
+	border-bottom: 5px solid #007fab /* #007fab */
 }
 
 #intro.section .teal {
@@ -358,7 +358,7 @@ a.hoverline {
 }
 
 a.hoverline:hover {
-	border-bottom: 3px solid #009688!important
+	border-bottom: 3px solid #007fab!important /* #007fab */
 }
 
 #skills .card.large {
@@ -426,11 +426,11 @@ small {
 }
 
 .teal-text {
-	color: #008073!important
+	color: #007fab!important /* #008073 */
 }
 
 .teal {
-	background-color: #008073!important
+	background-color: #007fab!important /* #008073 */
 }
 
 @media (min-width:1200px) {
@@ -470,7 +470,7 @@ small {
 	}
 	nav a.button-collapse,
 	nav a.button-collapse i {
-		color: #009688;
+		color: #007fab; /* #007fab */
 		height: 56px;
 		line-height: 56px
 	}
