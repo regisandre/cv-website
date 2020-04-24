@@ -155,25 +155,25 @@ $language = "en";
             $skills_level_intermediate = "Intermediate";
             $skills_level_advanced = "Advanced";
 
-			//Web development
-			$skills_webdev_title = "Web development";
-				$skills_webdev_html5 = "HTML5";
-                    $skills_webdev_html5_level = "Advanced"; // Must be in English if not common
-				$skills_webdev_css3 = "CSS3";
-                    $skills_webdev_css3_level = "Advanced"; // Must be in English if not common
-				$skills_webdev_php = "PHP";
-                    $skills_webdev_php_level = "Intermediate"; // Must be in English if not common
-				$skills_webdev_mysql = "MySQL";
-                    $skills_webdev_mysql_level = "Intermediate"; // Must be in English if not common
-				$skills_webdev_js = "Javascript";
-                    $skills_webdev_js_level = "Novice"; // Must be in English if not common
+			//Front-End development
+            $skills_frontend_title = "Front-End development";
+                $skills_frontend_html5 = "HTML5";
+                    $skills_frontend_html5_level = "Advanced"; // Must be in English if not common
+                $skills_frontend_css3 = "CSS3";
+                    $skills_frontend_css3_level = "Advanced"; // Must be in English if not common
+                $skills_frontend_js = "Javascript";
+                    $skills_frontend_js_level = "Novice"; // Must be in English if not common
+                $skills_frontend_java = "Java";
+                    $skills_frontend_java_level = "Intermediate"; // Must be in English if not common
 
-			//Software developement
-			$skills_softdev_title = "Software programming";
-				$skills_softdev_java = "Java";
-                    $skills_softdev_java_level = "Intermediate"; // Must be in English if not common
-				$skills_softdev_c = "C";
-                    $skills_softdev_c_level = "Novice"; // Must be in English if not common
+            //Back-End developement
+            $skills_backend_title = "Back-End developement";
+                $skills_backend_php = "PHP";
+                    $skills_backend_php_level = "Intermediate"; // Must be in English if not common
+                $skills_backend_mysql = "MySQL";
+                    $skills_backend_mysql_level = "Intermediate"; // Must be in English if not common
+                $skills_backend_c = "C";
+                    $skills_backend_c_level = "Novice"; // Must be in English if not common
 
 			//IT Tools
 			$skills_ittools_title = "IT tools";

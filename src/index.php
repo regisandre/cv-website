@@ -95,17 +95,17 @@ if($lang=="en") {
 					<a aria-label="Open Régis&#39;s resume in a new tab" href="https://docs.google.com/document/d/1W5v1T7odojUhVrJz_XNj8GODFbzJc02eRJpHekBJUSE" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
 				</li>
 				<li id="lang" class="bold waves-effect waves-dark grey-text">
-					<img src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
+					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
 					<ul id="lang_child">
 						<?php
 						if($lang != "en") {
-							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
 						} if($lang != "fr") {
-							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
 						} if($lang != "nl") {
-							echo "<li><a href='nl' class='waves-effect waves-dark'><img src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+							echo "<li><a href='nl' class='waves-effect waves-dark'><img alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
 						}
 						?>
 					</ul>
@@ -145,17 +145,17 @@ if($lang=="en") {
 					<a aria-label="Open Régis&#39;s Resume in a new tab" href="https://docs.google.com/document/d/1W5v1T7odojUhVrJz_XNj8GODFbzJc02eRJpHekBJUSE" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
 				<li id="lang" class="bold waves-effect waves-dark grey-text text-darken-3">
-					<img src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
+					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
 					<ul id="lang_child">
 						<?php
 						if($lang != "en") {
-							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
 						} if($lang != "fr") {
-							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
 						} if($lang != "nl") {
-							echo "<li><a href='nl' class='waves-effect waves-dark'><img src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+							echo "<li><a href='nl' class='waves-effect waves-dark'><img alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
 						}
 						?>
 					</ul>
@@ -471,46 +471,38 @@ if($lang=="en") {
 					<!--Skills example-->
 					<div class="card">
 						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_webdev_title; ?></h4>
+							<h4 class="brown-text light"><?php echo $skills_frontend_title; ?></h4>
 							<div class="row text-center">
 								<!--Icons example-->
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_webdev_html5; ?>
+									<img alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_html5_level, ""); ?>
+											<?php progressBar($skills_frontend_html5_level, ""); ?>
  										</div>
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_webdev_css3; ?>
+									<img alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_css3_level, ""); ?>
+											<?php progressBar($skills_frontend_css3_level, ""); ?>
  										</div>
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_webdev_php; ?>
+									<img alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_php_level, ""); ?>
+											<?php progressBar($skills_frontend_js_level, ""); ?>
  										</div>
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_webdev_mysql; ?>
+									<img alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_webdev_mysql_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_webdev_js; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_webdev_js_level, ""); ?>
+											<?php progressBar($skills_frontend_java_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -519,21 +511,29 @@ if($lang=="en") {
 					</div>
 					<div class="card">
 						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_softdev_title; ?></h4>
+							<h4 class="brown-text light"><?php echo $skills_backend_title; ?></h4>
 							<div class="row text-center">
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_softdev_java; ?>
+									<img alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_backend_php; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_softdev_java_level, ""); ?>
+											<?php progressBar($skills_backend_php_level, ""); ?>
  										</div>
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_softdev_c; ?>
+									<img alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_backend_mysql; ?>
 									<div class="level-reveal">
 										<div class="content">
-											<?php progressBar($skills_softdev_c_level, ""); ?>
+											<?php progressBar($skills_backend_mysql_level, ""); ?>
+ 										</div>
+									</div>
+								</div>
+								<div class="col s4 m2">
+									<img alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_backend_c; ?>
+									<div class="level-reveal">
+										<div class="content">
+											<?php progressBar($skills_backend_c_level, ""); ?>
  										</div>
 									</div>
 								</div>
@@ -545,7 +545,7 @@ if($lang=="en") {
 							<h4 class="brown-text light"><?php echo $skills_ittools_title; ?></h4>
 							<div class="row text-center">
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
+									<img alt="SCCM logo" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_sccm_level, ""); ?>
@@ -553,7 +553,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
+									<img alt="VMWare logo" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_vmware_level, ""); ?>
@@ -561,7 +561,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
+									<img alt="Jira logo" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_jira_level, ""); ?>
@@ -569,7 +569,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
+									<img alt="Confluence logo" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_confluence_level, ""); ?>
@@ -577,7 +577,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
+									<img alt="Microsoft logo for Active Directory" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_microsoftad_level, ""); ?>
@@ -585,7 +585,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
+									<img alt="Infoblox logo" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_infoblox_level, ""); ?>
@@ -593,7 +593,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
+									<img alt="Nexthink logo" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_ittools_nexthink_level, ""); ?>
@@ -608,7 +608,7 @@ if($lang=="en") {
 							<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
 							<div class="row text-center">
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
+									<img alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
@@ -616,7 +616,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
+									<img alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
@@ -631,7 +631,7 @@ if($lang=="en") {
 							<h4 class="brown-text light"><?php echo $skills_language_title; ?></h4>
 							<div class="row text-center">
 								<div class="col s4 m2">
-									<img alt="" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
+									<img alt="French flag" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
@@ -639,7 +639,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
+									<img alt="Great Britain flag" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
@@ -647,7 +647,7 @@ if($lang=="en") {
 									</div>
 								</div>
 								<div class="col s4 m2">
-									<img alt="" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
+									<img alt="Ducth flag" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
 									<div class="level-reveal">
 										<div class="content">
 											<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
@@ -667,7 +667,7 @@ if($lang=="en") {
 						<div class="col s12 m6 l4">
 							<div class="card medium">
 								<div class="card-image waves-effect waves-block waves-light">
-									<img alt="Screenshot of the project" src="./assets/img/projects/my_website.webp" class="activator">
+									<img alt="Screenshot of the project My Website" src="./assets/img/projects/my_website.webp" class="activator">
 								</div>
 								<div class="card-content">
 									<span class="card-title activator teal-text hoverline"><?php echo $projects_mywebsite_title; ?><i class="mdi-navigation-more-vert right"></i></span>
@@ -691,7 +691,7 @@ if($lang=="en") {
 						<div class="col s12 m6 l4">
 							<div class="card medium">
 								<div class="card-image waves-effect waves-block waves-light">
-									<img alt="Screenshot of the project" src="./assets/img/projects/multi_tips.webp" class="activator">
+									<img alt="Screenshot of the project Multi Tips" src="./assets/img/projects/multi_tips.webp" class="activator">
 								</div>
 								<div class="card-content">
 									<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
