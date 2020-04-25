@@ -92,7 +92,7 @@ if($lang=="en") {
 					<a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span><?php echo $large_nav_contact; ?></span></a>
 				</li>
 				<li class="bold">
-					<a aria-label="Open Régis&#39;s resume in a new tab" href="https://docs.google.com/document/d/1W5v1T7odojUhVrJz_XNj8GODFbzJc02eRJpHekBJUSE" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
+					<a aria-label="Open Régis&#39;s resume in a new tab" href="https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
 				</li>
 				<li id="lang" class="bold waves-effect waves-dark grey-text">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
@@ -142,7 +142,7 @@ if($lang=="en") {
 					<a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span><?php echo $small_nav_contact; ?></span></a>
 				</li>
 				<li class="bold">
-					<a aria-label="Open Régis&#39;s Resume in a new tab" href="https://docs.google.com/document/d/1W5v1T7odojUhVrJz_XNj8GODFbzJc02eRJpHekBJUSE" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
+					<a aria-label="Open Régis&#39;s Resume in a new tab" href="https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
 				<li id="lang" class="bold waves-effect waves-dark grey-text text-darken-3">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
