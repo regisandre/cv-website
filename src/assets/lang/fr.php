@@ -2,7 +2,7 @@
 $language = "fr";
 //Index
 	//Header
-    $title = "Régis ANDRÉ | Développeur, Technicien IT, Administrateur réseau";
+    $title = "Régis ANDRÉ | Développeur Full Stack, Administrateur réseau";
     $meta_description = "Je suis un passionné qui veut faire de ses rêves une réalité";
     $url = "regisandre.be/fr";
     $twitter_username = "Sioxox";
@@ -12,7 +12,7 @@ $language = "fr";
     //Navigation
     $full_name = "Régis ANDRÉ";
     	//Large nav
-    	$large_nav_role = "Développeur, Technicien IT, Admin. réseau";
+    	$large_nav_role = "Développeur Full Stack<br>Administrateur réseau";
     	$large_nav_about = "À propos";
     	$large_nav_education = "Formations";
     	$large_nav_experience = "Expériences pro.";
@@ -20,13 +20,13 @@ $language = "fr";
     	$large_nav_projects = "Projets";
     	$large_nav_awards = "<strike>Récompenses</strike>";
     	$large_nav_contact = "Contact";
-    	$large_nav_resume = "Résumé";
+    	$large_nav_resume = "CV";
             $large_nav_resume_link = "https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk";
     	$large_nav_language = "Langue";
     	//End of large nav
 
     	//Small nav
-    	$small_nav_role = "Développeur | Technicien IT | Admin. réseau";
+    	$small_nav_role = "Développeur Full Stack | Admininistrateur réseau";
     	$small_nav_about = "À propos";
     	$small_nav_education = "Formations";
     	$small_nav_experience = "Expériences pro.";
@@ -34,7 +34,7 @@ $language = "fr";
     	$small_nav_projects = "Projets";
     	$small_nav_awards = "<strike>Récompenses</strike>";
     	$small_nav_contact = "Contact";
-    	$small_nav_resume = "Résumé";
+    	$small_nav_resume = "CV";
             $small_nav_resume_link = "https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk";
     	$small_nav_language = "Langue";
     	//End of small nav
@@ -52,8 +52,8 @@ $language = "fr";
     	$about_title = "À propos";
     	$about_quote = "Vous voulez en savoir plus sur moi ?";
     	$about_line1 = "Passionné d'informatique et de nouvelles technologies, j'ai fait de ma passion mon métier.";
-    	$about_line2 = "Rigoureux, professionnel, autodidacte, je continue de m'instruire tous les jours sur les métiers lié aux nouvelles technologies informatiques.";
-    	$about_line3 = "Sur la base d'une solide expérience dans divers aspects informatiques et de ma facilité de communication, j'ai acquis une forte capacité à comprendre les besoins de mes clients et à traduire leurs besoins en la solution la plus efficace.";
+    	$about_line2 = "Je suis un geek, un curieux avec une grande capacité d'adaptation et un très bon relationnel.";
+    	$about_line3 = "J’ai une volonté de fer quand il s’agit d’apprendre et d’évoluer dans mon domaine d’activité.";
     	//End of about section
 
     	//Education section

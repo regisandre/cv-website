@@ -2,7 +2,7 @@
 $language = "nl";
 //Index
     //Header
-    $title = "Régis ANDRÉ | Developer, IT Technician, Network administrator";
+    $title = "Régis ANDRÉ | Full Stack Developer, Network administrator";
     $meta_description = "I'm a passionate who wants to make his dreams come true";
     $url = "regisandre.be/nl";
     $twitter_username = "Sioxox";
@@ -12,7 +12,7 @@ $language = "nl";
     //Navigation
     $full_name = "Régis ANDRÉ";
         //Large nav
-        $large_nav_role = "Developer, IT Technician, Network admin.";
+        $large_nav_role = "Full Stack Developer<br>Network administrator";
         $large_nav_about = "About";
         $large_nav_education = "Education";
         $large_nav_experience = "Experience";
@@ -26,7 +26,7 @@ $language = "nl";
         //End of large nav
 
         //Small nav
-        $small_nav_role = "Developer | IT Technician | Network admin.";
+        $small_nav_role = "Full Stack Developer | Network admininistrator";
         $small_nav_about = "About";
         $small_nav_education = "Education";
         $small_nav_experience = "Experience";
@@ -52,8 +52,8 @@ $language = "nl";
         $about_title = "About";
         $about_quote = "Want to know more about me ?";
         $about_line1 = "Passionate about IT and new technologies, I made my passion my job.";
-        $about_line2 = "Rigorous, professional, self-taught, I continue to educate myself every day on jobs related to new computer technologies.";
-        $about_line3 = "Based on a solid experience in various IT aspects and my ease of communication, I have acquired a strong ability to understand the needs of my clients and translate their needs into the most effective solution.";
+        $about_line2 = "I am a geek, a curious with a great adaptability and a very good interpersonal skills.";
+        $about_line3 = "I have a will of iron when it comes to learning and growing in my field of activity.";
         //End of about section
 
         //Education section
