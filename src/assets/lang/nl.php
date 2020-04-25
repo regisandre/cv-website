@@ -21,6 +21,7 @@ $language = "nl";
         $large_nav_awards = "<strike>Awards</strike>";
         $large_nav_contact = "Contact";
         $large_nav_resume = "Resume";
+            $large_nav_resume_link = "https://docs.google.com/document/d/1_sqiEIHD9ueQKUxwpspdmaH_jAeimO3TGG_F1sXXIWk";
         $large_nav_language = "Language";
         //End of large nav
 
@@ -34,6 +35,7 @@ $language = "nl";
         $small_nav_awards = "<strike>Awards</strike>";
         $small_nav_contact = "Contact";
         $small_nav_resume = "Resume";
+            $small_nav_resume_link = "https://docs.google.com/document/d/1_sqiEIHD9ueQKUxwpspdmaH_jAeimO3TGG_F1sXXIWk";
         $small_nav_language = "Language";
         //End of small nav
     //End of navigation
