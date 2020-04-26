@@ -1,0 +1,23 @@
+{
+  "short_name": "Régis's resume",
+  "name": "Régis André website",
+  "description": "I am a passionate who wants to make his dreams come true",
+  "icons": [
+    {
+      "src": "/assets/img/favicon/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/favicon/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#007fab",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#007fab",
+  "prefer_related_applications": false
+}

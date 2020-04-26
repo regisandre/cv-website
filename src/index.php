@@ -53,11 +53,26 @@ if($lang=="en") {
 		<link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
 		<link rel="manifest" href="./assets/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">  
+		<meta name="apple-mobile-web-app-status-bar-style" content="#007fab"> 
+		<meta name="apple-mobile-web-app-title" content="Régis André resume">
+		<meta name="msapplication-TileColor" content="#007fab">
 		<meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#007fab">
 		<meta name="robots" content="index, follow">
 		<meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y">
+		<script>
+			let deferredPrompt;
+
+			window.addEventListener('beforeinstallprompt', (e) => {
+			  // Prevent the mini-infobar from appearing on mobile
+			  e.preventDefault();
+			  // Stash the event so it can be triggered later.
+			  deferredPrompt = e;
+			  // Update UI notify the user they can install the PWA
+			  showInstallPromotion();
+			});
+		</script>
 	</head>
 	<body id="top">
 		<!-- Navigation Menu-->
@@ -777,6 +792,8 @@ if($lang=="en") {
 		</script>
 		<!-- jQuery -->
 		<script src="./assets/js/jquery.min.js"></script>
+		<!-- PWA -->
+		<script src="./assets/js/main.js"></script>
 		<!-- Materialize - Compiled and minified JavaScript -->
 		<script src="./assets/js/materialize.min.js"></script>
 		<script>
@@ -789,7 +806,7 @@ if($lang=="en") {
 			    edge: "left", // Choose the horizontal origin
 			    closeOnClick: true
 			  })
-			})
+			});
 		</script>
 	</body>
 </html>
