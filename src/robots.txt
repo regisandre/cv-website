@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /assets/
+Disallow: /multitips/assets/
+Disallow: /donation/assets/
+Disallow: /lang.php
+Disallow: /sw.js
+Disallow: /lang.php
 
 Sitemap: https://regisandre.be/sitemap.xml
