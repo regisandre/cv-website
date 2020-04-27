@@ -52,7 +52,7 @@ if($lang=="en") {
 		<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
-		<link rel="manifest" href="./assets/manifest.json">
+		<link rel="manifest" href="./assets/manifest.php">
 		<meta name="apple-mobile-web-app-capable" content="yes">  
 		<meta name="apple-mobile-web-app-status-bar-style" content="#007fab"> 
 		<meta name="apple-mobile-web-app-title" content="Régis André resume">
@@ -61,18 +61,6 @@ if($lang=="en") {
 		<meta name="theme-color" content="#007fab">
 		<meta name="robots" content="index, follow">
 		<meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y">
-		<script>
-			let deferredPrompt;
-
-			window.addEventListener('beforeinstallprompt', (e) => {
-			  // Prevent the mini-infobar from appearing on mobile
-			  e.preventDefault();
-			  // Stash the event so it can be triggered later.
-			  deferredPrompt = e;
-			  // Update UI notify the user they can install the PWA
-			  showInstallPromotion();
-			});
-		</script>
 	</head>
 	<body id="top">
 		<!-- Navigation Menu-->
@@ -772,10 +760,10 @@ if($lang=="en") {
 						<a aria-label="<?php echo $contact_prophone_label; ?>" href="<?php echo $contact_prophone_url; ?>" data-position="top" data-tooltip="<?php echo $contact_prophone_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_prophone_icon; ?>"></i></a><a aria-label="<?php echo $contact_prophone_label; ?>" href="<?php echo $contact_prophone_url; ?>" class="hoverline"><?php echo $contact_prophone_title; ?></a>
 					</p>
 					<p>
-						<a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" data-position="top" data-tooltip="<?php echo $contact_linkedin_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_linkedin_icon; ?>"></i></a><a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" class="hoverline"><?php echo $contact_linkedin_title; ?></a>
+						<a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" data-position="top" data-tooltip="<?php echo $contact_linkedin_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_linkedin_icon; ?>"></i></a><a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" class="hoverline"><?php echo $contact_linkedin_title; ?></a>
 					</p>
 					<p>
-						<a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" data-position="top" data-tooltip="<?php echo $contact_github_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_github_icon; ?>"></i></a><a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" class="hoverline"><?php echo $contact_github_title; ?></a>
+						<a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" data-position="top" data-tooltip="<?php echo $contact_github_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_github_icon; ?>"></i></a><a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" class="hoverline"><?php echo $contact_github_title; ?></a>
 					</p>
 				</div>
 			</section>
@@ -792,8 +780,6 @@ if($lang=="en") {
 		</script>
 		<!-- jQuery -->
 		<script src="./assets/js/jquery.min.js"></script>
-		<!-- PWA -->
-		<script src="./assets/js/main.js"></script>
 		<!-- Materialize - Compiled and minified JavaScript -->
 		<script src="./assets/js/materialize.min.js"></script>
 		<script>
@@ -806,6 +792,20 @@ if($lang=="en") {
 			    edge: "left", // Choose the horizontal origin
 			    closeOnClick: true
 			  })
+			});
+		</script>
+		<!-- PWA -->
+		<script src="./assets/js/main.js"></script>
+		<script>
+			let deferredPrompt;
+
+			window.addEventListener('beforeinstallprompt', (e) => {
+			  // Prevent the mini-infobar from appearing on mobile
+			  e.preventDefault();
+			  // Stash the event so it can be triggered later.
+			  deferredPrompt = e;
+			  // Update UI notify the user they can install the PWA
+			  showInstallPromotion();
 			});
 		</script>
 	</body>

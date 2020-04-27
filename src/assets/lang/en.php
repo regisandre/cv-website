@@ -2,11 +2,12 @@
 $language = "en";
 //Index
 	//Header
-    $title = "Régis ANDRÉ | Full Stack Developer, Network administrator";
+    $title = "Régis ANDRÉ | Full Stack Developer - Network administrator";
     $meta_description = "I'm a passionate who wants to make his dreams come true";
     $url = "regisandre.be/en";
     $twitter_username = "Sioxox";
     $author = "Régis ANDRÉ";
+    $color = "#007fab";
     //End of header
 
     //Navigation
