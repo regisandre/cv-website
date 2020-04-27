@@ -203,9 +203,25 @@ if($lang=="en") {
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
+									<a href="<?php echo $education_codecademy_url; ?>" target="_blank"><img alt="Codecademy logo" src="./assets/img/education/codecademy.webp" class="responsive-img center-block"></a>
+									<p>
+										<span class="card-title"><a href="<?php echo $education_codecademy_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_codecademy_title; ?></a></span>
+									</p>
+									<p class="brown-text"><?php echo $education_codecademy_location; ?></p>
+									<br>
+									<ul>
+										<li><?php echo $education_codecademy_desc_line1; ?></li>
+										<li><?php echo $education_codecademy_desc_line2; ?></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6">
+							<div class="card">
+								<div class="card-content">
 									<a href="<?php echo $education_ifapme_url; ?>" target="_blank"><img alt="IFAPME logo" src="./assets/img/education/ifapme.webp" class="responsive-img center-block"></a>
 									<p>
-										<span class="card-title"><a href="<?php echo $education_ifapme_url; ?>" class="teal-text hoverline"><?php echo $education_ifapme_title; ?></a></span>
+										<span class="card-title"><a href="<?php echo $education_ifapme_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_ifapme_title; ?></a></span>
 									</p>
 									<p class="brown-text"><?php echo $education_ifapme_location; ?></p>
 									<br>
@@ -217,13 +233,15 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_netacad_url; ?>" target="_blank"><img alt="Cisco logo" src="./assets/img/education/netacad.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_netacad_url; ?>" class="teal-text hoverline"><?php echo $education_netacad_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_netacad_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_netacad_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_netacad_location; ?></p>
 									</div>
@@ -237,15 +255,13 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_googledigitalgarage_url; ?>" target="_blank"><img alt="Google Digital Garage logo" src="./assets/img/education/google_digital_garage.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_googledigitalgarage_url; ?>" class="teal-text hoverline"><?php echo $education_googledigitalgarage_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_googledigitalgarage_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_googledigitalgarage_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_googledigitalgarage_location; ?></p>
 									</div>
@@ -255,13 +271,15 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_cvdc_url; ?>" target="_blank"><img alt="CVDC logo" src="./assets/img/education/CVDC.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_cvdc_url; ?>" class="teal-text hoverline"><?php echo $education_cvdc_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_cvdc_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_cvdc_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_cvdc_location; ?></p>
 									</div>
@@ -272,15 +290,13 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_condorcet_url; ?>" target="_blank"><img alt="Condorcet logo" src="./assets/img/education/condorcet.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_condorcet_url; ?>" class="teal-text hoverline"><?php echo $education_condorcet_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_condorcet_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_condorcet_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_condorcet_location; ?></p>
 									</div>
@@ -291,13 +307,15 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_arthuin_url; ?>" target="_blank"><img alt="ARThuin logo" src="./assets/img/education/arthuin.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_arthuin_url; ?>" class="teal-text hoverline"><?php echo $education_arthuin_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_arthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_arthuin_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_arthuin_location; ?></p>
 									</div>
@@ -308,15 +326,13 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
 									<div class="title">
 										<a href="<?php echo $education_indthuin_url; ?>" target="_blank"><img alt="IND Thuin logo" src="./assets/img/education/indthuin.webp" class="responsive-img center-block"></a>
 										<p>
-											<span class="card-title"><a href="<?php echo $education_indthuin_url; ?>" class="teal-text hoverline"><?php echo $education_indthuin_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $education_indthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_indthuin_title; ?></a></span>
 										</p>
 										<p class="brown-text"><?php echo $education_indthuin_location; ?></p>
 									</div>

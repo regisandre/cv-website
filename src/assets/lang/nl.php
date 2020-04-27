@@ -59,6 +59,13 @@ $language = "nl";
 
         //Education section
         $education_title = "Education";
+        	//Codecademy
+    		$education_codecademy_title = "Codecademy";
+    		$education_codecademy_url = "http://codeacademy.com/profiles/regisandre";
+    		$education_codecademy_location = "Charleroi, BE";
+    		$education_codecademy_desc_line1 = "2020 (In progress)";
+    		$education_codecademy_desc_line2 = "MOOC Web development";
+    		
             //IFAPME
             $education_ifapme_title = "IFAPME";
             $education_ifapme_url = "https://www.ifapme.be/";
@@ -121,7 +128,7 @@ $language = "nl";
             $experience_tesiasquad_url = "https://www.tesiasquad.eu/";
             $experience_tesiasquad_role = "Community Manager<br>Volunteer";
             $experience_tesiasquad_period_location_1 = "01/2018 - 02/2018 | Montreuil, FR"; //older
-            $experience_tesiasquad_period_location_2 = "01/2020 - Current | Montreuil, FR"; //newer
+            $experience_tesiasquad_period_location_2 = "01/2020 - 04/2020 | Montreuil, FR"; //newer
             $experience_tesiasquad_desc_line1 = "Daily management of social networks";
             $experience_tesiasquad_desc_line2 = "Writing";
             $experience_tesiasquad_desc_line3 = "Advertisement providing";
