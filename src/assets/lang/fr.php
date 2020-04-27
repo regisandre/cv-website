@@ -22,7 +22,7 @@ $language = "fr";
     	$large_nav_awards = "<strike>Récompenses</strike>";
     	$large_nav_contact = "Contact";
     	$large_nav_resume = "CV";
-            $large_nav_resume_link = "https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk";
+            $large_nav_resume_link = "https://docs.google.com/document/d/1o_zUhI9As2rSgb7wDRpAsrgVZzONo3Sl8PfxoVdERec";
     	$large_nav_language = "Langue";
     	//End of large nav
 
@@ -36,7 +36,7 @@ $language = "fr";
     	$small_nav_awards = "<strike>Récompenses</strike>";
     	$small_nav_contact = "Contact";
     	$small_nav_resume = "CV";
-            $small_nav_resume_link = "https://docs.google.com/document/d/1mE_TpuJzzQqbWYHlrnUBjnk333fVpT-QE9cGNbrWdCk";
+            $small_nav_resume_link = "https://docs.google.com/document/d/1o_zUhI9As2rSgb7wDRpAsrgVZzONo3Sl8PfxoVdERec";
     	$small_nav_language = "Langue";
     	//End of small nav
     //End of navigation
