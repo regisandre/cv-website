@@ -200,6 +200,7 @@ if($lang=="en") {
 					<!--Two cards per row-->
 					<div class="row">
 						<!--Education example-->
+						<article id="<?php echo $education_codecademy_title; ?>">
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
@@ -216,133 +217,148 @@ if($lang=="en") {
 								</div>
 							</div>
 						</div>
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<a href="<?php echo $education_ifapme_url; ?>" target="_blank"><img alt="IFAPME logo" src="./assets/img/education/ifapme.webp" class="responsive-img center-block"></a>
-									<p>
-										<span class="card-title"><a href="<?php echo $education_ifapme_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_ifapme_title; ?></a></span>
-									</p>
-									<p class="brown-text"><?php echo $education_ifapme_location; ?></p>
-									<br>
-									<ul>
-										<li><?php echo $education_ifapme_desc_line1; ?></li>
-										<li><?php echo $education_ifapme_desc_line2; ?></li>
-										<li><?php echo $education_ifapme_desc_line3; ?></li>
-									</ul>
+						</article>
+						<article id="<?php echo $education_ifapme_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<a href="<?php echo $education_ifapme_url; ?>" target="_blank"><img alt="IFAPME logo" src="./assets/img/education/ifapme.webp" class="responsive-img center-block"></a>
+										<p>
+											<span class="card-title"><a href="<?php echo $education_ifapme_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_ifapme_title; ?></a></span>
+										</p>
+										<p class="brown-text"><?php echo $education_ifapme_location; ?></p>
+										<br>
+										<ul>
+											<li><?php echo $education_ifapme_desc_line1; ?></li>
+											<li><?php echo $education_ifapme_desc_line2; ?></li>
+											<li><?php echo $education_ifapme_desc_line3; ?></li>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 					<div class="row">
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_netacad_url; ?>" target="_blank"><img alt="Cisco logo" src="./assets/img/education/netacad.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_netacad_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_netacad_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_netacad_location; ?></p>
+						<article id="<?php echo $education_netacad_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_netacad_url; ?>" target="_blank"><img alt="Cisco logo" src="./assets/img/education/netacad.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_netacad_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_netacad_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_netacad_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_netacad_desc_line1; ?></li>
+											<li><?php echo $education_netacad_desc_line2; ?></li>
+											<li><?php echo $education_netacad_desc_line3; ?></li>
+											<li><?php echo $education_netacad_desc_line4; ?></li>
+											<li><?php echo $education_netacad_desc_line5; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_netacad_desc_line1; ?></li>
-										<li><?php echo $education_netacad_desc_line2; ?></li>
-										<li><?php echo $education_netacad_desc_line3; ?></li>
-										<li><?php echo $education_netacad_desc_line4; ?></li>
-										<li><?php echo $education_netacad_desc_line5; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_googledigitalgarage_url; ?>" target="_blank"><img alt="Google Digital Garage logo" src="./assets/img/education/google_digital_garage.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_googledigitalgarage_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_googledigitalgarage_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_googledigitalgarage_location; ?></p>
+						</article>
+						<article id="<?php echo $education_googledigitalgarage_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_googledigitalgarage_url; ?>" target="_blank"><img alt="Google Digital Garage logo" src="./assets/img/education/google_digital_garage.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_googledigitalgarage_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_googledigitalgarage_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_googledigitalgarage_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_googledigitalgarage_desc_line1; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_googledigitalgarage_desc_line1; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 					<div class="row">
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_cvdc_url; ?>" target="_blank"><img alt="CVDC logo" src="./assets/img/education/CVDC.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_cvdc_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_cvdc_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_cvdc_location; ?></p>
+						<article id="<?php echo $education_cvdc_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_cvdc_url; ?>" target="_blank"><img alt="CVDC logo" src="./assets/img/education/CVDC.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_cvdc_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_cvdc_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_cvdc_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_cvdc_desc_line1; ?></li>
+											<li><?php echo $education_cvdc_desc_line2; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_cvdc_desc_line1; ?></li>
-										<li><?php echo $education_cvdc_desc_line2; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_condorcet_url; ?>" target="_blank"><img alt="Condorcet logo" src="./assets/img/education/condorcet.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_condorcet_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_condorcet_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_condorcet_location; ?></p>
+						</article>
+						<article id="<?php echo $education_condorcet_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_condorcet_url; ?>" target="_blank"><img alt="Condorcet logo" src="./assets/img/education/condorcet.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_condorcet_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_condorcet_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_condorcet_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_condorcet_desc_line1; ?></li>
+											<li><?php echo $education_condorcet_desc_line2; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_condorcet_desc_line1; ?></li>
-										<li><?php echo $education_condorcet_desc_line2; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 					<div class="row">
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_arthuin_url; ?>" target="_blank"><img alt="ARThuin logo" src="./assets/img/education/arthuin.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_arthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_arthuin_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_arthuin_location; ?></p>
+						<article id="<?php echo $education_arthuin_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_arthuin_url; ?>" target="_blank"><img alt="ARThuin logo" src="./assets/img/education/arthuin.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_arthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_arthuin_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_arthuin_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_arthuin_desc_line1; ?></li>
+											<li><?php echo $education_arthuin_desc_line2; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_arthuin_desc_line1; ?></li>
-										<li><?php echo $education_arthuin_desc_line2; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<div class="title">
-										<a href="<?php echo $education_indthuin_url; ?>" target="_blank"><img alt="IND Thuin logo" src="./assets/img/education/indthuin.webp" class="responsive-img center-block"></a>
-										<p>
-											<span class="card-title"><a href="<?php echo $education_indthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_indthuin_title; ?></a></span>
-										</p>
-										<p class="brown-text"><?php echo $education_indthuin_location; ?></p>
+						</article>
+						<article id="<?php echo $education_indthuin_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<div class="title">
+											<a href="<?php echo $education_indthuin_url; ?>" target="_blank"><img alt="IND Thuin logo" src="./assets/img/education/indthuin.webp" class="responsive-img center-block"></a>
+											<p>
+												<span class="card-title"><a href="<?php echo $education_indthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_indthuin_title; ?></a></span>
+											</p>
+											<p class="brown-text"><?php echo $education_indthuin_location; ?></p>
+										</div>
+										<ul>
+											<li><?php echo $education_indthuin_desc_line1; ?></li>
+											<li><?php echo $education_indthuin_desc_line2; ?></li>
+										</ul>
 									</div>
-									<ul>
-										<li><?php echo $education_indthuin_desc_line1; ?></li>
-										<li><?php echo $education_indthuin_desc_line2; ?></li>
-									</ul>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 				</div>
 			</section>
@@ -350,332 +366,350 @@ if($lang=="en") {
 				<h3 class="page-title white-text teal"><?php echo $experience_title; ?></h3>
 				<div class="container">
 					<!--Experience example-->
-					<div class="card">
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2">
-									<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+					<article id="<?php echo $experience_ghdc_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2">
+										<a href="<?php echo $experience_ghdc_url; ?>" target="_blank"><img alt="GHdC logo" src="./assets/img/experience/ghdc.webp" class="responsive-img center-block"></a>
+									</div>
+									<p>
+										<span class="card-title"><a href="<?php echo $experience_ghdc_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_ghdc_title; ?></a></span>
+									</p>
+								</div>
+								<div class="role brown-text">
+									<?php echo $experience_ghdc_role; ?>
 								</div>
 								<p>
-									<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
+									<em class="grey-text"><?php echo $experience_ghdc_description; ?></em>
 								</p>
+								<ul>
+									<li>
+										<?php echo $experience_ghdc_desc_line1; ?>
+									</li>
+									<li>
+										<?php echo $experience_ghdc_desc_line2; ?>
+									</li>
+									<li>
+										<?php echo $experience_ghdc_desc_line3; ?>
+									</li>
+									<li>
+										<?php echo $experience_ghdc_desc_line4; ?>
+									</li>
+									<li>
+										<?php echo $experience_ghdc_desc_line5; ?>
+									</li>
+									<li>
+										<?php echo $experience_ghdc_desc_line6; ?>
+									</li>
+								</ul>
 							</div>
-							<div class="role brown-text">
-								<?php echo $experience_tesiasquad_role; ?>
-							</div>
-							<p>
-								<em class="grey-text"><?php echo $experience_tesiasquad_description; ?></em>
-							</p>
-							<ul>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line1; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line2; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line3; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line4; ?>
-								</li>
-							</ul>
+							<div class="card-action"><span><?php echo $experience_ghdc_period_location; ?></span></div>
 						</div>
-						<div class="card-action"><span><?php echo $experience_tesiasquad_period_location_2; ?></span></div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2">
-									<a href="<?php echo $experience_ghdc_url; ?>" target="_blank"><img alt="GHdC logo" src="./assets/img/experience/ghdc.webp" class="responsive-img center-block"></a>
+					</article>
+					<article id="<?php echo $experience_tesiasquad_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2">
+										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+									</div>
+									<p>
+										<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
+									</p>
+								</div>
+								<div class="role brown-text">
+									<?php echo $experience_tesiasquad_role; ?>
 								</div>
 								<p>
-									<span class="card-title"><a href="<?php echo $experience_ghdc_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_ghdc_title; ?></a></span>
+									<em class="grey-text"><?php echo $experience_tesiasquad_description; ?></em>
 								</p>
+								<ul>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line1; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line2; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line3; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line4; ?>
+									</li>
+								</ul>
 							</div>
-							<div class="role brown-text">
-								<?php echo $experience_ghdc_role; ?>
-							</div>
-							<p>
-								<em class="grey-text"><?php echo $experience_ghdc_description; ?></em>
-							</p>
-							<ul>
-								<li>
-									<?php echo $experience_ghdc_desc_line1; ?>
-								</li>
-								<li>
-									<?php echo $experience_ghdc_desc_line2; ?>
-								</li>
-								<li>
-									<?php echo $experience_ghdc_desc_line3; ?>
-								</li>
-								<li>
-									<?php echo $experience_ghdc_desc_line4; ?>
-								</li>
-								<li>
-									<?php echo $experience_ghdc_desc_line5; ?>
-								</li>
-								<li>
-									<?php echo $experience_ghdc_desc_line6; ?>
-								</li>
-							</ul>
+							<div class="card-action"><span><?php echo $experience_tesiasquad_period_location_2; ?></span></div>
 						</div>
-						<div class="card-action"><span><?php echo $experience_ghdc_period_location; ?></span></div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2">
-									<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+					</article>
+					<article id="<?php echo $experience_tesiasquad_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2">
+										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+									</div>
+									<p>
+										<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
+									</p>
+								</div>
+								<div class="role brown-text">
+									<?php echo $experience_tesiasquad_role; ?>
 								</div>
 								<p>
-									<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
+									<em class="grey-text"><?php echo $experience_tesiasquad_description; ?></em>
 								</p>
+								<ul>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line1; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line2; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line3; ?>
+									</li>
+									<li>
+										<?php echo $experience_tesiasquad_desc_line4; ?>
+									</li>
+								</ul>
 							</div>
-							<div class="role brown-text">
-								<?php echo $experience_tesiasquad_role; ?>
-							</div>
-							<p>
-								<em class="grey-text"><?php echo $experience_tesiasquad_description; ?></em>
-							</p>
-							<ul>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line1; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line2; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line3; ?>
-								</li>
-								<li>
-									<?php echo $experience_tesiasquad_desc_line4; ?>
-								</li>
-							</ul>
+							<div class="card-action"><span><?php echo $experience_tesiasquad_period_location_1; ?></span></div>
 						</div>
-						<div class="card-action"><span><?php echo $experience_tesiasquad_period_location_1; ?></span></div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2">
-									<a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank"><img alt="Municipality of Ham-sur-Heure-Nalinnes logo" src="./assets/img/experience/hsh-n_municipality.webp" class="responsive-img center-block"></a>
+					</article>
+					<article id="<?php echo $experience_hshnmunicipality_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2">
+										<a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank"><img alt="Municipality of Ham-sur-Heure-Nalinnes logo" src="./assets/img/experience/hsh-n_municipality.webp" class="responsive-img center-block"></a>
+									</div>
+									<p>
+										<span class="card-title"><a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_hshnmunicipality_title; ?></a></span>
+									</p>
+								</div>
+								<div class="role brown-text">
+									<?php echo $experience_hshnmunicipality_role; ?>
 								</div>
 								<p>
-									<span class="card-title"><a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_hshnmunicipality_title; ?></a></span>
+									<em class="grey-text"><?php echo $experience_hshnmunicipality_description; ?></em>
 								</p>
+								<ul>
+									<li>
+										<?php echo $experience_hshnmunicipality_desc_line1; ?>
+									</li>
+									<li>
+										<?php echo $experience_hshnmunicipality_desc_line2; ?>
+									</li>
+								</ul>
 							</div>
-							<div class="role brown-text">
-								<?php echo $experience_hshnmunicipality_role; ?>
-							</div>
-							<p>
-								<em class="grey-text"><?php echo $experience_hshnmunicipality_description; ?></em>
-							</p>
-							<ul>
-								<li>
-									<?php echo $experience_hshnmunicipality_desc_line1; ?>
-								</li>
-								<li>
-									<?php echo $experience_hshnmunicipality_desc_line2; ?>
-								</li>
-							</ul>
+							<div class="card-action"><span><?php echo $experience_hshnmunicipality_period_location; ?></span></div>
 						</div>
-						<div class="card-action"><span><?php echo $experience_hshnmunicipality_period_location; ?></span></div>
-					</div>
+					</article>
 				</div>
 			</section>
 			<section id="skills" class="section scrollspy">
 				<h3 class="page-title white-text teal"><?php echo $skills_title; ?></h3>
 				<div class="container">
 					<!--Skills example-->
-					<div class="card">
-						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_frontend_title; ?></h4>
-							<div class="row text-center">
-								<!--Icons example-->
-								<div class="col s4 m2">
-									<img alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_frontend_html5_level, ""); ?>
- 										</div>
+					<article id="<?php echo $skills_frontend_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_frontend_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_frontend_html5_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_frontend_css3_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_frontend_css3_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_frontend_js_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_frontend_js_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_frontend_java_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_backend_title; ?></h4>
-							<div class="row text-center">
-								<div class="col s4 m2">
-									<img alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_backend_php; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_backend_php_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_backend_mysql; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_backend_mysql_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_backend_c; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_backend_c_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_frontend_java_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_ittools_title; ?></h4>
-							<div class="row text-center">
-								<div class="col s4 m2">
-									<img alt="SCCM logo" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_sccm_level, ""); ?>
- 										</div>
+					</article>
+					<article id="<?php echo $skills_backend_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_backend_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_backend_php; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_backend_php_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="VMWare logo" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_vmware_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_backend_mysql; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_backend_mysql_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Jira logo" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_jira_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Confluence logo" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_confluence_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Microsoft logo for Active Directory" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_microsoftad_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Infoblox logo" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_infoblox_level, ""); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Nexthink logo" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_ittools_nexthink_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_backend_c; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_backend_c_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
-							<div class="row text-center">
-								<div class="col s4 m2">
-									<img alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
- 										</div>
+					</article>
+					<article id="<?php echo $skills_ittools_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_ittools_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img alt="SCCM logo" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_sccm_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="VMWare logo" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_vmware_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Jira logo" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_jira_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Confluence logo" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_confluence_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Microsoft logo for Active Directory" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_microsoftad_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Infoblox logo" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_infoblox_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Nexthink logo" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ittools_nexthink_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card">
-						<div class="card-content">
-							<h4 class="brown-text light"><?php echo $skills_language_title; ?></h4>
-							<div class="row text-center">
-								<div class="col s4 m2">
-									<img alt="French flag" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
- 										</div>
+					</article>
+					<article id="<?php echo $skills_editiontools_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Great Britain flag" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
- 										</div>
-									</div>
-								</div>
-								<div class="col s4 m2">
-									<img alt="Ducth flag" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
-									<div class="level-reveal">
-										<div class="content">
-											<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
- 										</div>
+									<div class="col s4 m2">
+										<img alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
+	 										</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</article>
+					<article id="<?php echo $skills_language_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_language_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img alt="French flag" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Great Britain flag" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img alt="Ducth flag" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
 				</div>
 			</section>
 			<section id="projects" class="section scrollspy">
@@ -683,54 +717,58 @@ if($lang=="en") {
 				<div class="container">
 					<div class="row">
 						<!--Project example-->
-						<div class="col s12 m6 l4">
-							<div class="card medium">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img alt="Screenshot of the project My Website" src="./assets/img/projects/my_website.webp" class="activator">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator teal-text hoverline"><?php echo $projects_mywebsite_title; ?><i class="mdi-navigation-more-vert right"></i></span>
-									<p>
-										<?php echo $projects_mywebsite_description; ?>
-									</p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title brown-text"><?php echo $projects_mywebsite_nav_title; ?><i class="mdi-navigation-close right"></i></span>
-									<ul>
-										<li><?php echo $projects_mywebsite_nav_desc_line1; ?></li>
-										<li><?php echo $projects_mywebsite_nav_desc_line2; ?></li>
-										<li><?php echo $projects_mywebsite_nav_desc_line3; ?></li>
-									</ul>
-									<div class="card-action">
-										<a aria-label="Visit project web site" href="<?php echo $projects_mywebsite_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_mywebsite_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
+						<article id="<?php echo $projects_mywebsite_title; ?>">
+							<div class="col s12 m6 l4">
+								<div class="card medium">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img alt="Screenshot of the project My Website" src="./assets/img/projects/my_website.webp" class="activator">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator teal-text hoverline"><?php echo $projects_mywebsite_title; ?><i class="mdi-navigation-more-vert right"></i></span>
+										<p>
+											<?php echo $projects_mywebsite_description; ?>
+										</p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title brown-text"><?php echo $projects_mywebsite_nav_title; ?><i class="mdi-navigation-close right"></i></span>
+										<ul>
+											<li><?php echo $projects_mywebsite_nav_desc_line1; ?></li>
+											<li><?php echo $projects_mywebsite_nav_desc_line2; ?></li>
+											<li><?php echo $projects_mywebsite_nav_desc_line3; ?></li>
+										</ul>
+										<div class="card-action">
+											<a aria-label="Visit project web site" href="<?php echo $projects_mywebsite_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_mywebsite_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card medium">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img alt="Screenshot of the project Multi Tips" src="./assets/img/projects/multi_tips.webp" class="activator">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
-									<p>
-										<?php echo $projects_multitips_description; ?>
-									</p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title brown-text"><?php echo $projects_multitips_nav_title; ?><i class="mdi-navigation-close right"></i></span>
-									<ul>
-										<li><?php echo $projects_multitips_nav_desc_line1; ?></li>
-										<li><?php echo $projects_multitips_nav_desc_line2; ?></li>
-									</ul>
-									<div class="card-action">
-										<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
-										<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link2_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link2_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link2_icon; ?>"></i></a>
+						</article>
+						<article id="<?php echo $projects_multitips_title; ?>">
+							<div class="col s12 m6 l4">
+								<div class="card medium">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img alt="Screenshot of the project Multi Tips" src="./assets/img/projects/multi_tips.webp" class="activator">
+									</div>
+									<div class="card-content">
+										<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
+										<p>
+											<?php echo $projects_multitips_description; ?>
+										</p>
+									</div>
+									<div class="card-reveal">
+										<span class="card-title brown-text"><?php echo $projects_multitips_nav_title; ?><i class="mdi-navigation-close right"></i></span>
+										<ul>
+											<li><?php echo $projects_multitips_nav_desc_line1; ?></li>
+											<li><?php echo $projects_multitips_nav_desc_line2; ?></li>
+										</ul>
+										<div class="card-action">
+											<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link1_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link1_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link1_icon; ?>"></i></a>
+											<a aria-label="Visit project web site" href="<?php echo $projects_multitips_nav_link2_url; ?>" target="_blank" data-position="top" data-tooltip="<?php echo $projects_multitips_nav_link2_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $projects_multitips_nav_link2_icon; ?>"></i></a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 				</div>
 			</section>
@@ -740,23 +778,25 @@ if($lang=="en") {
 					<!--Two cards per row-->
 					<div class="row">
 						<!--Awards example
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<p>
-										<span class="card-title"><a href="<?php echo $awards_example_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $awards_example_title; ?></a></span>
-									</p>
-									<p class="brown-text">
-										<?php echo $awards_example_description; ?>
-									</p>
-									<ul>
-										<li>
-											<?php echo $awards_example_desc_line1; ?>
-										</li>
-									</ul>
+						<article id="<?php echo $awards_example_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<p>
+											<span class="card-title"><a href="<?php echo $awards_example_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $awards_example_title; ?></a></span>
+										</p>
+										<p class="brown-text">
+											<?php echo $awards_example_description; ?>
+										</p>
+										<ul>
+											<li>
+												<?php echo $awards_example_desc_line1; ?>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>-->
+						</article>-->
 					</div>
 				</div>
 			</section>
