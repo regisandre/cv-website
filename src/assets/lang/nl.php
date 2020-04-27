@@ -62,7 +62,7 @@ $language = "nl";
         	//Codecademy
     		$education_codecademy_title = "Codecademy";
     		$education_codecademy_url = "http://codeacademy.com/profiles/regisandre";
-    		$education_codecademy_location = "Charleroi, BE";
+    		$education_codecademy_location = "E-learning, Internet";
     		$education_codecademy_desc_line1 = "2020 (In progress)";
     		$education_codecademy_desc_line2 = "MOOC Web development";
     		
