@@ -27,7 +27,7 @@ $language = "fr";
     	//End of large nav
 
     	//Small nav
-    	$small_nav_role = "Développeur Full Stack | Admininistrateur réseau";
+    	$small_nav_role = "Développeur Full Stack | Admin. réseau";
     	$small_nav_about = "À propos";
     	$small_nav_education = "Formations";
     	$small_nav_experience = "Expériences pro.";
@@ -142,7 +142,7 @@ $language = "fr";
     		$experience_ghdc_period_location = "09/2018 - Actuel (08/2020) | Charleroi, BE";
     		$experience_ghdc_desc_line1 = "Installation de matériel informatique";
     		$experience_ghdc_desc_line2 = "Helpdesk";
-    		$experience_ghdc_desc_line3 = "Création de scritpts d'automatisation";
+    		$experience_ghdc_desc_line3 = "Création de scripts d'automatisation";
     		$experience_ghdc_desc_line4 = "Rédaction de documentations";
     		$experience_ghdc_desc_line5 = "Troubleshooting";
     		$experience_ghdc_desc_line6 = "Gestion d’accès";
@@ -204,9 +204,9 @@ $language = "fr";
 
 			//Edition tools
             $skills_editiontools_title = "Outils d'édition";
-                $skills_editiontools_photoshop = "Adobe Photoshop";
+                $skills_editiontools_photoshop = "Photoshop";
                     $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English if not common
-                $skills_editiontools_premierepro = "Adobe Premiere Pro";
+                $skills_editiontools_premierepro = "Premiere Pro";
                     $skills_editiontools_premierepro_level = "Advanced"; // Must be in English if not common
 
 			//Language

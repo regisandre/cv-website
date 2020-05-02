@@ -17,7 +17,6 @@ if($lang=="en") {
 		<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 		<!-- Materialize - Compiled and minified CSS-->
 		<link rel="stylesheet" href="./assets/css/materialize.min.css">
-		<!--<link rel="stylesheet" href="./assets/css/materialize-icon.css">-->
 		<!-- Custom Styles-->
 		<link rel="stylesheet" href="./assets/css/style.min.css">
 		<title><?php echo $title; ?></title>
@@ -97,11 +96,11 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s resume in a new tab" href="<?php echo $large_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
 				</li>
-				<li id="lang" class="bold waves-effect waves-dark grey-text">
+				<li id="lang" class="waves-effect waves-dark grey-text">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
-					<ul id="lang_child">
+					<ul class="lang_child">
 						<?php
 						if($lang != "en") {
 							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
@@ -147,11 +146,11 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s Resume in a new tab" href="<?php echo $small_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
-				<li id="lang" class="bold waves-effect waves-dark grey-text text-darken-3">
+				<li id="lang" class="waves-effect waves-dark grey-text text-darken-3">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
-					<ul id="lang_child">
+					<ul class="lang_child">
 						<?php
 						if($lang != "en") {
 							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
@@ -804,10 +803,10 @@ if($lang=="en") {
 				<h3 class="page-title white-text teal"><?php echo $contact_title; ?></h3>
 				<div class="container">
 					<p>
-						<a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_proemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_proemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_proemail_label; ?>" href="mailto:regis-andre99@hotmail.com" class="hoverline"><?php echo $contact_proemail_title; ?></a>
+						<a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_proemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_proemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_proemail_label; ?>" href="mailto:regis-andre99@hotmail.com" class="hoverline" target="_blank"><?php echo $contact_proemail_title; ?></a>
 					</p>
 					<p>
-						<a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_persoemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_persoemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" class="hoverline"><?php echo $contact_persoemail_title; ?></a>
+						<a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_persoemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_persoemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_persoemail_title; ?></a>
 					</p>
 					<p>
 						<a aria-label="<?php echo $contact_mobilephone_label; ?>" href="<?php echo $contact_mobilephone_url; ?>" data-position="top" data-tooltip="<?php echo $contact_mobilephone_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_mobilephone_icon; ?>"></i></a><a aria-label="<?php echo $contact_mobilephone_label; ?>" href="<?php echo $contact_mobilephone_url; ?>" class="hoverline"><?php echo $contact_mobilephone_title; ?></a>
@@ -816,10 +815,10 @@ if($lang=="en") {
 						<a aria-label="<?php echo $contact_prophone_label; ?>" href="<?php echo $contact_prophone_url; ?>" data-position="top" data-tooltip="<?php echo $contact_prophone_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa <?php echo $contact_prophone_icon; ?>"></i></a><a aria-label="<?php echo $contact_prophone_label; ?>" href="<?php echo $contact_prophone_url; ?>" class="hoverline"><?php echo $contact_prophone_title; ?></a>
 					</p>
 					<p>
-						<a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" data-position="top" data-tooltip="<?php echo $contact_linkedin_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_linkedin_icon; ?>"></i></a><a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" class="hoverline"><?php echo $contact_linkedin_title; ?></a>
+						<a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" data-position="top" data-tooltip="<?php echo $contact_linkedin_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_linkedin_icon; ?>"></i></a><a aria-label="<?php echo $contact_linkedin_label; ?>" href="<?php echo $contact_linkedin_url; ?>" class="hoverline" target="_blank"><?php echo $contact_linkedin_title; ?></a>
 					</p>
 					<p>
-						<a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" data-position="top" data-tooltip="<?php echo $contact_github_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_github_icon; ?>"></i></a><a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" class="hoverline"><?php echo $contact_github_title; ?></a>
+						<a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" data-position="top" data-tooltip="<?php echo $contact_github_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_github_icon; ?>"></i></a><a aria-label="<?php echo $contact_github_label; ?>" href="<?php echo $contact_github_url; ?>" class="hoverline" target="_blank"><?php echo $contact_github_title; ?></a>
 					</p>
 				</div>
 			</section>
@@ -862,6 +861,15 @@ if($lang=="en") {
 			  deferredPrompt = e;
 			  // Update UI notify the user they can install the PWA
 			  showInstallPromotion();
+			});
+
+			$(document).ready(function() {
+   				$('.lang_child').mouseover(function() {
+      				$('#lang i').addClass('arrowhover');
+   				});
+   				$('.lang_child').mouseout(function() {
+      				$('#lang i').removeClass('arrowhover');
+   				});
 			});
 		</script>
 	</body>

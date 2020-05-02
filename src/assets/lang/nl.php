@@ -27,7 +27,7 @@ $language = "nl";
         //End of large nav
 
         //Small nav
-        $small_nav_role = "Full Stack Developer | Network admininistrator";
+        $small_nav_role = "Full Stack Developer | Network admin.";
         $small_nav_about = "About";
         $small_nav_education = "Education";
         $small_nav_experience = "Experience";
@@ -204,9 +204,9 @@ $language = "nl";
 
             //Edition tools
             $skills_editiontools_title = "Edition tools";
-                $skills_editiontools_photoshop = "Adobe Photoshop";
+                $skills_editiontools_photoshop = "Photoshop";
                     $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English if not common
-                $skills_editiontools_premierepro = "Adobe Premiere Pro";
+                $skills_editiontools_premierepro = "Premiere Pro";
                     $skills_editiontools_premierepro_level = "Advanced"; // Must be in English if not common
 
             //Language
