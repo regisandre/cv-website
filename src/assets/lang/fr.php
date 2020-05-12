@@ -172,7 +172,7 @@ $language = "fr";
                 $skills_frontend_css3 = "CSS3";
                     $skills_frontend_css3_level = "Advanced"; // Must be in English if not common
                 $skills_frontend_js = "Javascript";
-                    $skills_frontend_js_level = "Novice"; // Must be in English if not common
+                    $skills_frontend_js_level = "Advanced"; // Must be in English if not common
                 $skills_frontend_java = "Java";
                     $skills_frontend_java_level = "Intermediate"; // Must be in English if not common
 
@@ -264,8 +264,8 @@ $language = "fr";
     	//Contact section
 		$contact_title = "Contact";
 			//Professional email
-			$contact_proemail_title = "Email pro. : regis-andre99@hotmail.com";
-			$contact_proemail_url = "mailto:regis-andre99@hotmail.com";
+			$contact_proemail_title = "Email pro. : pro@regisandre.be";
+			$contact_proemail_url = "mailto:pro@regisandre.be";
 			$contact_proemail_icon = "fa-envelope"; //Font Awesome
 			$contact_proemail_action = "Envoyez moi un email";
 			$contact_proemail_label = "Email professionnel de Régis";

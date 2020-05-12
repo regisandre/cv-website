@@ -14,11 +14,11 @@ if($lang=="en") {
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<!-- Font Awesome Icon - CSS-->
-		<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./assets/css/font-awesome.min.css" async>
 		<!-- Materialize - Compiled and minified CSS-->
-		<link rel="stylesheet" href="./assets/css/materialize.min.css">
+		<link rel="stylesheet" href="./assets/css/materialize.min.css" async>
 		<!-- Custom Styles-->
-		<link rel="stylesheet" href="./assets/css/style.min.css">
+		<link rel="stylesheet" href="./assets/css/style.min.css" async>
 		<title><?php echo $title; ?></title>
 		<!-- Open Graph-->
 		<meta property="og:locale" content="<?php echo $lang; ?>">
@@ -96,7 +96,7 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s resume in a new tab" href="<?php echo $large_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
 				</li>
-				<li id="lang" class="waves-effect waves-dark grey-text">
+				<li class="lang waves-effect waves-dark grey-text">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
@@ -146,7 +146,7 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s Resume in a new tab" href="<?php echo $small_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
-				<li id="lang" class="waves-effect waves-dark grey-text text-darken-3">
+				<li class="lang waves-effect waves-dark grey-text text-darken-3">
 					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
 				</li>
 				<li>
@@ -803,7 +803,7 @@ if($lang=="en") {
 				<h3 class="page-title white-text teal"><?php echo $contact_title; ?></h3>
 				<div class="container">
 					<p>
-						<a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_proemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_proemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_proemail_label; ?>" href="mailto:regis-andre99@hotmail.com" class="hoverline" target="_blank"><?php echo $contact_proemail_title; ?></a>
+						<a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_proemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_proemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_proemail_title; ?></a>
 					</p>
 					<p>
 						<a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_persoemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_persoemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_persoemail_title; ?></a>
@@ -850,7 +850,7 @@ if($lang=="en") {
 			});
 		</script>
 		<!-- PWA -->
-		<script src="./assets/js/main.js"></script>
+		<script async src="./assets/js/main.js"></script>
 		<script>
 			let deferredPrompt;
 
@@ -865,10 +865,10 @@ if($lang=="en") {
 
 			$(document).ready(function() {
    				$('.lang_child').mouseover(function() {
-      				$('#lang i').addClass('arrowhover');
+      				$('.lang i').addClass('arrowhover');
    				});
    				$('.lang_child').mouseout(function() {
-      				$('#lang i').removeClass('arrowhover');
+      				$('.lang i').removeClass('arrowhover');
    				});
 			});
 		</script>
