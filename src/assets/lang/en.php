@@ -19,7 +19,7 @@ $language = "en";
     	$large_nav_experience = "Experience";
     	$large_nav_skills = "Skills";
     	$large_nav_projects = "Projects";
-    	$large_nav_awards = "<strike>Awards</strike>";
+    	$large_nav_awards = "Awards";
     	$large_nav_contact = "Contact";
     	$large_nav_resume = "Resume";
             $large_nav_resume_link = "https://docs.google.com/document/d/1_sqiEIHD9ueQKUxwpspdmaH_jAeimO3TGG_F1sXXIWk";
@@ -33,7 +33,7 @@ $language = "en";
     	$small_nav_experience = "Experience";
     	$small_nav_skills = "Skills";
     	$small_nav_projects = "Projects";
-    	$small_nav_awards = "<strike>Awards</strike>";
+    	$small_nav_awards = "Awards";
     	$small_nav_contact = "Contact";
     	$small_nav_resume = "Resume";
             $small_nav_resume_link = "https://docs.google.com/document/d/1_sqiEIHD9ueQKUxwpspdmaH_jAeimO3TGG_F1sXXIWk";
@@ -78,7 +78,7 @@ $language = "en";
     		$education_netacad_title = "Cisco Networking Academy";
     		$education_netacad_url = "https://www.netacad.com/";
     		$education_netacad_location = "E-learning, Internet";
-    		$education_netacad_desc_line1 = "(Soon 29/05/2020) CCNA R&S : Routing and Switching Essentials";
+    		$education_netacad_desc_line1 = "(15/05/2020) CCNA R&S : Routing and Switching Essentials";
             $education_netacad_desc_line2 = "(17/04/2020) CCNAv7 Bridging SRWE & ENSA";
     		$education_netacad_desc_line3 = "(23/03/2020) CCNA IoT : Introduction to IoT - Cisco Networking Academy";
     		$education_netacad_desc_line4 = "(12/02/2020) CCNA IoT : Introduction to the IoE";
@@ -254,11 +254,25 @@ $language = "en";
 
     	//Awards section
 		$awards_title = "Awards";
-			//Example
-			$awards_example_title = "Example";
-			$awards_example_description = "Example description";
-			$awards_example_desc_line1 = "Example line 1";
-			$awards_example_url = "#";
+			//Cisco passed with Merit - CCNA R&S: Introduction to Networks
+			$awards_cisco_merit1_title = "Passed with Merit!";
+				$awards_cisco_merit1_title_url = "./assets/pdf/awards/RégisAndré-5X41B-Introducti-letter.pdf";
+			$awards_cisco_merit1_location = "Cisco Networking Academy";
+				$awards_cisco_merit1_location_url = "https://www.netacad.com/";
+			$awards_cisco_merit1_period = "February 2019";
+			$awards_cisco_merit1_desc_line1 = "For CCNA R&S: Introduction to Networks";
+			$awards_cisco_merit1_desc_line2 = "Awarded to students and Instructors who score 75% or above on their course final exam to acknowledge the excellence they have achieved.";
+			$awards_cisco_merit1_desc_line3 = "Signed by Cisco CEO Chuck Robbins"; 
+
+			//Cisco passed with Merit - CCNA R&S: Routing and Switching Essentials
+			$awards_cisco_merit2_title = "Passed with Merit!";
+				$awards_cisco_merit2_title_url = "./assets/pdf/awards/RégisAndré-6X41-Routing-and-letter.pdf";
+			$awards_cisco_merit2_location = "Cisco Networking Academy";
+				$awards_cisco_merit2_location_url = "https://www.netacad.com/";
+			$awards_cisco_merit2_period = "May 2020";
+			$awards_cisco_merit2_desc_line1 = "For CCNA R&S: Routing and Switching Essentials";
+			$awards_cisco_merit2_desc_line2 = "Awarded to students and Instructors who score 75% or above on their course final exam to acknowledge the excellence they have achieved.";
+			$awards_cisco_merit2_desc_line3 = "Signed by Cisco CEO Chuck Robbins"; 
 
     	//End of awards section
 

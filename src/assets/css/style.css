@@ -42,14 +42,15 @@ main {
 	padding-left: 190px
 }
 
-.lang {
+.lang-selector {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
 	max-height: 60px;
+	background-color: white;
 }
 
-.lang_child {
+.lang-child {
 	display: none;
 	position: absolute;
 	bottom: 60px;
@@ -58,7 +59,7 @@ main {
 	z-index: 2;
 }
 
-.lang i {
+.lang-selector i {
 	-webkit-transition: transform 0.5s ease 0s;
 	-moz-transition: transform 0.5s ease 0s;
 	-ms-transition: transform 0.5s ease 0s;
@@ -66,22 +67,21 @@ main {
 	transition: transform 0.5s ease 0s;
 }
 
-.lang:hover i, .lang:active i, .arrowhover {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-
-.lang:hover + li ul, .lang:active + li ul,
-.lang_child:hover, .lang_child:active {
+.langhover {
 	display: block;
 	-webkit-animation: fadein .6s;
 	-moz-animation: fadein .6s;
 	-ms-animation: fadein .6s;
 	-o-animation: fadein .6s;
 	animation: fadein .6s
+}
+
+.arrowhover {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 @keyframes fadein {
@@ -129,25 +129,25 @@ main {
 	}
 }
 
-.lang img {
+.lang-selector img {
 	vertical-align: middle;
 	margin-left: 16px
 }
 
-.lang+li ul img {
+.lang-selector + li ul img {
 	vertical-align: middle;
 	margin-left: 16px
 }
 
-.lang span,
-.lang_child span {
+.lang-selector span,
+.lang-child span {
 	position: relative;
 	text-transform: uppercase;
 	top: 3px;
 	left: 16px
 }
 
-.lang i {
+.lang-selector i {
 	position: absolute;
 	right: 0
 }
@@ -367,7 +367,7 @@ h3 {
 	margin-left: 10px
 }
 
-a.hoverline {
+a.hoverline, a.award-loc-hoverline {
 	border-bottom: 3px solid transparent!important;
 	padding: 3px 3px 0 3px;
 	transition: .25s all;
@@ -375,8 +375,20 @@ a.hoverline {
 	-webkit-transition: .25s all
 }
 
+a.award-loc-hoverline {
+	padding: 0px 0px 0px 0px;
+	font-size: 1em;
+	text-transform: none;
+	margin: 0;
+	color: #795548!important
+}
+
 a.hoverline:hover {
 	border-bottom: 3px solid #007fab!important /* #007fab */
+}
+
+a.award-loc-hoverline:hover {
+	border-bottom: 3px solid #795548!important
 }
 
 #skills .card.large {

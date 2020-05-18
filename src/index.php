@@ -96,22 +96,24 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s resume in a new tab" href="<?php echo $large_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text"><i class="mdi-action-description small"></i><span><?php echo $large_nav_resume; ?></span></a>
 				</li>
-				<li class="lang waves-effect waves-dark grey-text">
-					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
-				</li>
-				<li>
-					<ul class="lang_child">
-						<?php
-						if($lang != "en") {
-							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
-						} if($lang != "fr") {
-							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
-						} if($lang != "nl") {
-							echo "<li><a href='nl' class='waves-effect waves-dark'><img alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
-						}
-						?>
-					</ul>
-				</li>
+				<div class="lang">
+					<li class="lang-selector waves-effect waves-dark grey-text">
+						<img loading='lazy' alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
+					</li>
+					<li>
+						<ul class="lang-child">
+							<?php
+							if($lang != "en") {
+								echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+							} if($lang != "fr") {
+								echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+							} if($lang != "nl") {
+								echo "<li><a href='nl' class='waves-effect waves-dark'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+							}
+							?>
+						</ul>
+					</li>
+				</div>
 			</ul>
 		</nav>
 		<nav class="hide-on-large only trigger z-depth-1">
@@ -146,22 +148,24 @@ if($lang=="en") {
 				<li class="bold">
 					<a aria-label="Open Régis&#39;s Resume in a new tab" href="<?php echo $small_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
-				<li class="lang waves-effect waves-dark grey-text text-darken-3">
-					<img alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
-				</li>
-				<li>
-					<ul class="lang_child">
-						<?php
-						if($lang != "en") {
-							echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
-						} if($lang != "fr") {
-							echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
-						} if($lang != "nl") {
-							echo "<li><a href='nl' class='waves-effect waves-dark'><img alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
-						}
-						?>
-					</ul>
-				</li>
+				<div class="lang">
+					<li class="lang-selector waves-effect waves-dark grey-text text-darken-3">
+						<img loading='lazy' alt="<?php echo $flag; ?> flag" src="https://www.countryflags.io/<?php echo $flag; ?>/flat/32.png"><span><?php echo $lang; ?></span><i class="mdi-hardware-keyboard-arrow-up small"></i>
+					</li>
+					<li>
+						<ul class="lang-child">
+							<?php
+							if($lang != "en") {
+								echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+							} if($lang != "fr") {
+								echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+							} if($lang != "nl") {
+								echo "<li><a href='nl' class='waves-effect waves-dark'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+							}
+							?>
+						</ul>
+					</li>
+				</div>
 			</ul>
 		</nav>
 		<!-- Main Content-->
@@ -203,7 +207,7 @@ if($lang=="en") {
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
-									<a href="<?php echo $education_codecademy_url; ?>" target="_blank"><img alt="Codecademy logo" src="./assets/img/education/codecademy.webp" class="responsive-img center-block"></a>
+									<a href="<?php echo $education_codecademy_url; ?>" target="_blank"><img loading='lazy' alt="Codecademy logo" src="./assets/img/education/codecademy.webp" class="responsive-img center-block"></a>
 									<p>
 										<span class="card-title"><a href="<?php echo $education_codecademy_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_codecademy_title; ?></a></span>
 									</p>
@@ -221,7 +225,7 @@ if($lang=="en") {
 							<div class="col s12 m6">
 								<div class="card">
 									<div class="card-content">
-										<a href="<?php echo $education_ifapme_url; ?>" target="_blank"><img alt="IFAPME logo" src="./assets/img/education/ifapme.webp" class="responsive-img center-block"></a>
+										<a href="<?php echo $education_ifapme_url; ?>" target="_blank"><img loading='lazy' alt="IFAPME logo" src="./assets/img/education/ifapme.webp" class="responsive-img center-block"></a>
 										<p>
 											<span class="card-title"><a href="<?php echo $education_ifapme_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_ifapme_title; ?></a></span>
 										</p>
@@ -243,7 +247,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_netacad_url; ?>" target="_blank"><img alt="Cisco logo" src="./assets/img/education/netacad.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_netacad_url; ?>" target="_blank"><img loading='lazy' alt="Cisco logo" src="./assets/img/education/netacad.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_netacad_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_netacad_title; ?></a></span>
 											</p>
@@ -265,7 +269,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_googledigitalgarage_url; ?>" target="_blank"><img alt="Google Digital Garage logo" src="./assets/img/education/google_digital_garage.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_googledigitalgarage_url; ?>" target="_blank"><img loading='lazy' alt="Google Digital Garage logo" src="./assets/img/education/google_digital_garage.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_googledigitalgarage_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_googledigitalgarage_title; ?></a></span>
 											</p>
@@ -285,7 +289,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_cvdc_url; ?>" target="_blank"><img alt="CVDC logo" src="./assets/img/education/CVDC.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_cvdc_url; ?>" target="_blank"><img loading='lazy' alt="CVDC logo" src="./assets/img/education/CVDC.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_cvdc_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_cvdc_title; ?></a></span>
 											</p>
@@ -304,7 +308,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_condorcet_url; ?>" target="_blank"><img alt="Condorcet logo" src="./assets/img/education/condorcet.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_condorcet_url; ?>" target="_blank"><img loading='lazy' alt="Condorcet logo" src="./assets/img/education/condorcet.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_condorcet_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_condorcet_title; ?></a></span>
 											</p>
@@ -325,7 +329,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_arthuin_url; ?>" target="_blank"><img alt="ARThuin logo" src="./assets/img/education/arthuin.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_arthuin_url; ?>" target="_blank"><img loading='lazy' alt="ARThuin logo" src="./assets/img/education/arthuin.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_arthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_arthuin_title; ?></a></span>
 											</p>
@@ -344,7 +348,7 @@ if($lang=="en") {
 								<div class="card">
 									<div class="card-content">
 										<div class="title">
-											<a href="<?php echo $education_indthuin_url; ?>" target="_blank"><img alt="IND Thuin logo" src="./assets/img/education/indthuin.webp" class="responsive-img center-block"></a>
+											<a href="<?php echo $education_indthuin_url; ?>" target="_blank"><img loading='lazy' alt="IND Thuin logo" src="./assets/img/education/indthuin.webp" class="responsive-img center-block"></a>
 											<p>
 												<span class="card-title"><a href="<?php echo $education_indthuin_url; ?>" class="teal-text hoverline" target="_blank"><?php echo $education_indthuin_title; ?></a></span>
 											</p>
@@ -370,7 +374,7 @@ if($lang=="en") {
 							<div class="card-content">
 								<div class="row">
 									<div class="col s12 m2">
-										<a href="<?php echo $experience_ghdc_url; ?>" target="_blank"><img alt="GHdC logo" src="./assets/img/experience/ghdc.webp" class="responsive-img center-block"></a>
+										<a href="<?php echo $experience_ghdc_url; ?>" target="_blank"><img loading='lazy' alt="GHdC logo" src="./assets/img/experience/ghdc.webp" class="responsive-img center-block"></a>
 									</div>
 									<p>
 										<span class="card-title"><a href="<?php echo $experience_ghdc_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_ghdc_title; ?></a></span>
@@ -411,7 +415,7 @@ if($lang=="en") {
 							<div class="card-content">
 								<div class="row">
 									<div class="col s12 m2">
-										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img loading='lazy' alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
 									</div>
 									<p>
 										<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
@@ -446,7 +450,7 @@ if($lang=="en") {
 							<div class="card-content">
 								<div class="row">
 									<div class="col s12 m2">
-										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
+										<a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank"><img loading='lazy' alt="TesiaSquad logo" src="./assets/img/experience/tesiasquad.webp" class="responsive-img center-block"></a>
 									</div>
 									<p>
 										<span class="card-title"><a href="<?php echo $experience_tesiasquad_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_tesiasquad_title; ?></a></span>
@@ -481,7 +485,7 @@ if($lang=="en") {
 							<div class="card-content">
 								<div class="row">
 									<div class="col s12 m2">
-										<a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank"><img alt="Municipality of Ham-sur-Heure-Nalinnes logo" src="./assets/img/experience/hsh-n_municipality.webp" class="responsive-img center-block"></a>
+										<a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank"><img loading='lazy' alt="Municipality of Ham-sur-Heure-Nalinnes logo" src="./assets/img/experience/hsh-n_municipality.webp" class="responsive-img center-block"></a>
 									</div>
 									<p>
 										<span class="card-title"><a href="<?php echo $experience_hshnmunicipality_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_hshnmunicipality_title; ?></a></span>
@@ -518,7 +522,7 @@ if($lang=="en") {
 								<div class="row text-center">
 									<!--Icons example-->
 									<div class="col s4 m2">
-										<img alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
+										<img loading='lazy' alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_frontend_html5_level, ""); ?>
@@ -526,7 +530,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
+										<img loading='lazy' alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_frontend_css3_level, ""); ?>
@@ -534,7 +538,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
+										<img loading='lazy' alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_frontend_js_level, ""); ?>
@@ -542,7 +546,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
+										<img loading='lazy' alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_frontend_java_level, ""); ?>
@@ -559,7 +563,7 @@ if($lang=="en") {
 								<h4 class="brown-text light"><?php echo $skills_backend_title; ?></h4>
 								<div class="row text-center">
 									<div class="col s4 m2">
-										<img alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_backend_php; ?>
+										<img loading='lazy' alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_backend_php; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_backend_php_level, ""); ?>
@@ -567,7 +571,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_backend_mysql; ?>
+										<img loading='lazy' alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_backend_mysql; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_backend_mysql_level, ""); ?>
@@ -575,7 +579,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_backend_c; ?>
+										<img loading='lazy' alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_backend_c; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_backend_c_level, ""); ?>
@@ -592,7 +596,7 @@ if($lang=="en") {
 								<h4 class="brown-text light"><?php echo $skills_ittools_title; ?></h4>
 								<div class="row text-center">
 									<div class="col s4 m2">
-										<img alt="SCCM logo" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
+										<img loading='lazy' alt="SCCM logo" src="./assets/img/skills/sccm.webp" class="responsive-img"><?php echo $skills_ittools_sccm; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_sccm_level, ""); ?>
@@ -600,7 +604,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="VMWare logo" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
+										<img loading='lazy' alt="VMWare logo" src="./assets/img/skills/vmware.webp" class="responsive-img"><?php echo $skills_ittools_vmware; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_vmware_level, ""); ?>
@@ -608,7 +612,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Jira logo" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
+										<img loading='lazy' alt="Jira logo" src="./assets/img/skills/jira.webp" class="responsive-img"><?php echo $skills_ittools_jira; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_jira_level, ""); ?>
@@ -616,7 +620,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Confluence logo" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
+										<img loading='lazy' alt="Confluence logo" src="./assets/img/skills/confluence.webp" class="responsive-img"><?php echo $skills_ittools_confluence; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_confluence_level, ""); ?>
@@ -624,7 +628,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Microsoft logo for Active Directory" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
+										<img loading='lazy' alt="Microsoft logo for Active Directory" src="./assets/img/skills/microsoft.webp" class="responsive-img"><?php echo $skills_ittools_microsoftad; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_microsoftad_level, ""); ?>
@@ -632,7 +636,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Infoblox logo" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
+										<img loading='lazy' alt="Infoblox logo" src="./assets/img/skills/infoblox.webp" class="responsive-img"><?php echo $skills_ittools_infoblox; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_infoblox_level, ""); ?>
@@ -640,7 +644,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Nexthink logo" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
+										<img loading='lazy' alt="Nexthink logo" src="./assets/img/skills/nexthink.webp" class="responsive-img"><?php echo $skills_ittools_nexthink; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_nexthink_level, ""); ?>
@@ -657,7 +661,7 @@ if($lang=="en") {
 								<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
 								<div class="row text-center">
 									<div class="col s4 m2">
-										<img alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
+										<img loading='lazy' alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
@@ -665,7 +669,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
+										<img loading='lazy' alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
@@ -682,7 +686,7 @@ if($lang=="en") {
 								<h4 class="brown-text light"><?php echo $skills_language_title; ?></h4>
 								<div class="row text-center">
 									<div class="col s4 m2">
-										<img alt="French flag" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
+										<img loading='lazy' alt="French flag" src='https://www.countryflags.io/fr/flat/64.png' class="responsive-img"><?php echo $skills_language_fr; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_language_fr_level, $skills_language_fr_level_percentage); ?>
@@ -690,7 +694,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Great Britain flag" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
+										<img loading='lazy' alt="Great Britain flag" src='https://www.countryflags.io/gb/flat/64.png' class="responsive-img"><?php echo $skills_language_en; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_language_en_level, $skills_language_en_level_percentage); ?>
@@ -698,7 +702,7 @@ if($lang=="en") {
 										</div>
 									</div>
 									<div class="col s4 m2">
-										<img alt="Ducth flag" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
+										<img loading='lazy' alt="Ducth flag" src='https://www.countryflags.io/nl/flat/64.png' class="responsive-img"><?php echo $skills_language_nl; ?>
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_language_nl_level, $skills_language_nl_level_percentage); ?>
@@ -720,7 +724,7 @@ if($lang=="en") {
 							<div class="col s12 m6 l4">
 								<div class="card medium">
 									<div class="card-image waves-effect waves-block waves-light">
-										<img alt="Screenshot of the project My Website" src="./assets/img/projects/my_website.webp" class="activator">
+										<img loading='lazy' alt="Screenshot of the project My Website" src="./assets/img/projects/my_website.webp" class="activator">
 									</div>
 									<div class="card-content">
 										<span class="card-title activator teal-text hoverline"><?php echo $projects_mywebsite_title; ?><i class="mdi-navigation-more-vert right"></i></span>
@@ -746,7 +750,7 @@ if($lang=="en") {
 							<div class="col s12 m6 l4">
 								<div class="card medium">
 									<div class="card-image waves-effect waves-block waves-light">
-										<img alt="Screenshot of the project Multi Tips" src="./assets/img/projects/multi_tips.webp" class="activator">
+										<img loading='lazy' alt="Screenshot of the project Multi Tips" src="./assets/img/projects/multi_tips.webp" class="activator">
 									</div>
 									<div class="card-content">
 										<span class="card-title activator teal-text hoverline"><?php echo $projects_multitips_title; ?><i class="mdi-navigation-more-vert right"></i></span>
@@ -776,26 +780,44 @@ if($lang=="en") {
 				<div class="container">
 					<!--Two cards per row-->
 					<div class="row">
-						<!--Awards example
-						<article id="<?php echo $awards_example_title; ?>">
+						<article id="<?php echo $awards_cisco_merit2_title; ?>">
 							<div class="col s12 m6">
 								<div class="card">
 									<div class="card-content">
 										<p>
-											<span class="card-title"><a href="<?php echo $awards_example_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $awards_example_title; ?></a></span>
+											<span class="card-title"><a href="<?php echo $awards_cisco_merit2_title_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $awards_cisco_merit2_title; ?></a></span>
 										</p>
 										<p class="brown-text">
-											<?php echo $awards_example_description; ?>
+										<a href="<?php echo $awards_cisco_merit2_location_url; ?>" target="_blank" class="award-loc-hoverline"><?php echo $awards_cisco_merit2_location; ?></a> | <?php echo $awards_cisco_merit2_period; ?>
 										</p>
 										<ul>
-											<li>
-												<?php echo $awards_example_desc_line1; ?>
-											</li>
+											<li><?php echo $awards_cisco_merit2_desc_line1; ?></li>
+											<li><?php echo $awards_cisco_merit2_desc_line2; ?></li>
+											<li><?php echo $awards_cisco_merit2_desc_line3; ?></li>
 										</ul>
 									</div>
 								</div>
 							</div>
-						</article>-->
+						</article>
+						<article id="<?php echo $awards_cisco_merit1_title; ?>">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content">
+										<p>
+											<span class="card-title"><a href="<?php echo $awards_cisco_merit1_title_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $awards_cisco_merit1_title; ?></a></span>
+										</p>
+										<p class="brown-text">
+										<a href="<?php echo $awards_cisco_merit1_location_url; ?>" target="_blank" class="award-loc-hoverline"><?php echo $awards_cisco_merit1_location; ?></a> | <?php echo $awards_cisco_merit1_period; ?>
+										</p>
+										<ul>
+											<li><?php echo $awards_cisco_merit1_desc_line1; ?></li>
+											<li><?php echo $awards_cisco_merit1_desc_line2; ?></li>
+											<li><?php echo $awards_cisco_merit2_desc_line3; ?></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</article>
 					</div>
 				</div>
 			</section>
@@ -837,18 +859,6 @@ if($lang=="en") {
 		<script src="./assets/js/jquery.min.js"></script>
 		<!-- Materialize - Compiled and minified JavaScript -->
 		<script src="./assets/js/materialize.min.js"></script>
-		<script>
-			// Materialize - Initializers
-			$(document).ready(function() {
-			  $(".scrollspy").scrollSpy()
-			  // Initialize collapse button
-			  $(".button-collapse").sideNav({
-			    menuWidth: 190, // Default is 240
-			    edge: "left", // Choose the horizontal origin
-			    closeOnClick: true
-			  })
-			});
-		</script>
 		<!-- PWA -->
 		<script async src="./assets/js/main.js"></script>
 		<script>
@@ -864,12 +874,55 @@ if($lang=="en") {
 			});
 
 			$(document).ready(function() {
-   				$('.lang_child').mouseover(function() {
-      				$('.lang i').addClass('arrowhover');
-   				});
-   				$('.lang_child').mouseout(function() {
-      				$('.lang i').removeClass('arrowhover');
-   				});
+				// Materialize - Initializers
+				$(".scrollspy").scrollSpy();
+			  	// Initialize collapse button
+			 	 $(".button-collapse").sideNav({
+			    	menuWidth: 190, // Default is 240
+			   	 edge: "left", // Choose the horizontal origin
+			    	closeOnClick: true
+			  	});
+
+				let clickNumber = 0;
+				let isTouch = ('ontouchstart' in document.documentElement);
+
+				if(isTouch) {
+					var langElement = document.getElementsByClassName('lang');
+					
+					document.addEventListener('click', function(event) {
+						for(let i = 0; i < langElement.length; i++) {
+							
+						}
+						var isClickInside1 = langElement[0].contains(event.target);
+						var isClickInside2 = langElement[1].contains(event.target);
+
+  						if (!isClickInside1 && !isClickInside2) {
+    						$('.lang-selector i').removeClass('arrowhover');
+							$('.lang-selector + li ul').removeClass('langhover');
+							clickNumber = 0;
+  						} else {
+							if(clickNumber === 0) {
+								$('.lang-selector i').addClass('arrowhover');
+								$('.lang-selector + li ul').addClass('langhover');
+								clickNumber++;
+							} else {
+								$('.lang-selector i').removeClass('arrowhover');
+								$('.lang-selector + li ul').removeClass('langhover');
+								clickNumber--;
+							}
+						}
+					});
+				} else {
+					$('.lang').mouseenter(function() {
+						$('.lang-selector i').addClass('arrowhover');
+						$('.lang-selector + li ul').addClass('langhover');
+					});
+
+					$('.lang').mouseleave(function() {
+						$('.lang-selector i').removeClass('arrowhover');
+						$('.lang-selector + li ul').removeClass('langhover');
+					});
+				}
 			});
 		</script>
 	</body>
