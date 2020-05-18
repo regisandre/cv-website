@@ -116,6 +116,7 @@ if($lang=="en") {
 				</div>
 			</ul>
 		</nav>
+		<!--Little nav-->
 		<nav class="hide-on-large only trigger z-depth-1">
 			<a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 			<div class="name-title">

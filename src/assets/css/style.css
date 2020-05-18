@@ -34,12 +34,18 @@ nav {
 nav i {
 	padding: 0 15px;
 	position: relative;
-	top: 5px
+	top: 5px;
 }
 
 main {
 	background: url(../img/bg.webp) repeat;
 	padding-left: 190px
+}
+
+@media screen and (max-height: 620px) {
+	.bold {
+		height: 45px;
+	}
 }
 
 .lang-selector {

@@ -6571,6 +6571,15 @@ nav a.button-collapse {
 	color: #fff
 }
 
+@media screen and (max-width: 345px) {
+	.button-collapse i {
+		font-size: 1.9rem!important;
+		right: 5px;
+		height: 56px;
+		line-height: 56px
+	}
+}
+
 nav a.button-collapse i {
 	font-size: 2.7rem;
 	height: 56px;
