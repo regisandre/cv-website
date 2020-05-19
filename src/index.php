@@ -74,7 +74,7 @@ if($lang=="en") {
 				</li>
 				<li class="bold">
 					<a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text active"><i class="mdi-social-person small"></i><span><?php echo $large_nav_about; ?></span></a>
-				</li>
+				</li></a>
 				<li class="bold">
 					<a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span><?php echo $large_nav_education; ?></span></a>
 				</li>
@@ -104,11 +104,11 @@ if($lang=="en") {
 						<ul class="lang-child">
 							<?php
 							if($lang != "en") {
-								echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+								echo "<li class='bold'><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
 							} if($lang != "fr") {
-								echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+								echo "<li class='bold'><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
 							} if($lang != "nl") {
-								echo "<li><a href='nl' class='waves-effect waves-dark'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+								echo "<li class='bold'><a href='nl' class='waves-effect waves-dark'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
 							}
 							?>
 						</ul>
@@ -125,29 +125,29 @@ if($lang=="en") {
 		</nav>
 		<nav class="hide-on-large only">
 			<ul id="slide-out" class="side-nav" style="width: 190px; left: -200px;">
-				<li class="bold">
-					<a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text active"><i class="mdi-social-person small"></i><span><?php echo $small_nav_about; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the About section" href="#about" class="teal-text active"><i class="mdi-social-person small"></i><span><?php echo $small_nav_about; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span><?php echo $small_nav_education; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Education section" href="#education" class="orange-text"><i class="mdi-social-school small"></i><span><?php echo $small_nav_education; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span><?php echo $small_nav_experience; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Experience section" href="#experience" class="cyan-text"><i class="mdi-action-trending-up small"></i><span><?php echo $small_nav_experience; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span><?php echo $small_nav_skills; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Skills section" href="#skills" class="purple-text"><i class="mdi-av-equalizer small"></i><span><?php echo $small_nav_skills; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span><?php echo $small_nav_projects; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Projects section" href="#projects" class="indigo-text"><i class="mdi-av-web small"></i><span><?php echo $small_nav_projects; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span><?php echo $small_nav_awards; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Awards section" href="#awards" class="red-text"><i class="mdi-action-grade small"></i><span><?php echo $small_nav_awards; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span><?php echo $small_nav_contact; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Navigate to the Contact section" href="#contact" class="brown-text"><i class="mdi-content-mail small"></i><span><?php echo $small_nav_contact; ?></span></a>
 				</li>
-				<li class="bold">
-					<a aria-label="Open Régis&#39;s Resume in a new tab" href="<?php echo $small_nav_resume_link ?>" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
+				<li class="bold waves-effect waves-dark">
+					<a aria-label="Open Régis&#39;s Resume in a new tab" href="<?php echo $small_nav_resume_link ?>" target="_blank" class="grey-text text-darken-3"><i class="mdi-action-description small"></i><span><?php echo $small_nav_resume; ?></span></a>
 				</li>
 				<div class="lang">
 					<li class="lang-selector waves-effect waves-dark grey-text text-darken-3">
@@ -157,11 +157,11 @@ if($lang=="en") {
 						<ul class="lang-child">
 							<?php
 							if($lang != "en") {
-								echo "<li><a href='en' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
+								echo "<li class='bold waves-effect waves-dark'><a href='en' class='grey-text text-darken-3'><img loading='lazy' alt='Great Britain flag' src='https://www.countryflags.io/gb/flat/32.png'><span>EN</span></a></li>";
 							} if($lang != "fr") {
-								echo "<li><a href='fr' class='waves-effect waves-dark grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
+								echo "<li class='bold waves-effect waves-dark'><a href='fr' class='grey-text text-darken-3'><img loading='lazy' alt='French flag' src='https://www.countryflags.io/fr/flat/32.png'><span>FR</span></a></li>";
 							} if($lang != "nl") {
-								echo "<li><a href='nl' class='waves-effect waves-dark'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
+								echo "<li class='bold waves-effect waves-dark'><a href='nl' class='grey-text text-darken-3'><img loading='lazy' alt='Dutch flag' src='https://www.countryflags.io/nl/flat/32.png'><span>NL</span></a></li>";
 							}
 							?>
 						</ul>
@@ -516,36 +516,106 @@ if($lang=="en") {
 				<h3 class="page-title white-text teal"><?php echo $skills_title; ?></h3>
 				<div class="container">
 					<!--Skills example-->
-					<article id="<?php echo $skills_frontend_title; ?>">
+					<article id="<?php echo $skills_html_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_html_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_html_html5; ?> logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_html_html5; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_html_html5_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article id="<?php echo $skills_css_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_css_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_css_css3; ?> logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_css_css3; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_css_css3_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_css_sass; ?> logo" src="./assets/img/skills/sass.webp" class="responsive-img"><?php echo $skills_css_sass; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_css_sass_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_css_materialize; ?> logo" src="./assets/img/skills/materialize.webp" class="responsive-img"><?php echo $skills_css_materialize; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_css_materialize_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article id="<?php echo $skills_js_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_js_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_js_es6; ?> logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_js_es6; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_js_es6_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_js_handlebars; ?> logo" src="./assets/img/skills/handlebars.webp" class="responsive-img"><?php echo $skills_js_handlebars; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_js_handlebars_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_js_jquery; ?> logo" src="./assets/img/skills/jquery.webp" class="responsive-img"><?php echo $skills_js_jquery; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_js_jquery_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_js_react; ?> logo" src="./assets/img/skills/react.webp" class="responsive-img"><?php echo $skills_js_react; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_js_react_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!--<article id="<?php echo $skills_frontend_title; ?>">
 						<div class="card">
 							<div class="card-content">
 								<h4 class="brown-text light"><?php echo $skills_frontend_title; ?></h4>
 								<div class="row text-center">
-									<!--Icons example-->
-									<div class="col s4 m2">
-										<img loading='lazy' alt="HTML5 logo" src="./assets/img/skills/html5.webp" class="responsive-img"><?php echo $skills_frontend_html5; ?>
-										<div class="level-reveal">
-											<div class="content">
-												<?php progressBar($skills_frontend_html5_level, ""); ?>
-	 										</div>
-										</div>
-									</div>
-									<div class="col s4 m2">
-										<img loading='lazy' alt="CSS3 logo" src="./assets/img/skills/css3.webp" class="responsive-img"><?php echo $skills_frontend_css3; ?>
-										<div class="level-reveal">
-											<div class="content">
-												<?php progressBar($skills_frontend_css3_level, ""); ?>
-	 										</div>
-										</div>
-									</div>
-									<div class="col s4 m2">
-										<img loading='lazy' alt="Javascript logo" src="./assets/img/skills/javascript.webp" class="responsive-img"><?php echo $skills_frontend_js; ?>
-										<div class="level-reveal">
-											<div class="content">
-												<?php progressBar($skills_frontend_js_level, ""); ?>
-	 										</div>
-										</div>
-									</div>
+									Icons example
 									<div class="col s4 m2">
 										<img loading='lazy' alt="Java logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_frontend_java; ?>
 										<div class="level-reveal">
@@ -584,6 +654,140 @@ if($lang=="en") {
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_backend_c_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>-->
+					<article id="<?php echo $skills_otherlanguages_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_otherlanguages_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img loading='lazy' alt="Java language logo" src="./assets/img/skills/java.webp" class="responsive-img"><?php echo $skills_otherlanguages_java; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_otherlanguages_java_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="PHP logo" src="./assets/img/skills/php.webp" class="responsive-img"><?php echo $skills_otherlanguages_php; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_otherlanguages_php_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="MySQL logo" src="./assets/img/skills/mysql.webp" class="responsive-img"><?php echo $skills_otherlanguages_mysql; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_otherlanguages_mysql_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="C language logo" src="./assets/img/skills/c.webp" class="responsive-img"><?php echo $skills_otherlanguages_c; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_otherlanguages_c_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article id="<?php echo $skills_mstech_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_mstech_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_mstech_git; ?> logo" src="./assets/img/skills/git.webp" class="responsive-img"><?php echo $skills_mstech_git; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_mstech_git_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_mstech_github; ?> logo" src="./assets/img/skills/github.webp" class="responsive-img"><?php echo $skills_mstech_github; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_mstech_github_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_mstech_pwa; ?> logo" src="./assets/img/skills/pwa.webp" class="responsive-img"><?php echo $skills_mstech_pwa; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_mstech_pwa_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article id="<?php echo $skills_ide_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_ide_title; ?></h4>
+								<div class="row text-center">
+									<!--Icons example-->
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_ide_vsc; ?> logo" src="./assets/img/skills/visualstudiocode.webp" class="responsive-img"><?php echo $skills_ide_vsc; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ide_vsc_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_ide_sublimetext; ?> logo" src="./assets/img/skills/sublime-text.webp" class="responsive-img"><?php echo $skills_ide_sublimetext; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ide_sublimetext_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="<?php echo $skills_ide_eclipse; ?> logo" src="./assets/img/skills/eclipse.webp" class="responsive-img"><?php echo $skills_ide_eclipse; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_ide_eclipse_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article id="<?php echo $skills_editiontools_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
+								<div class="row text-center">
+									<div class="col s4 m2">
+										<img loading='lazy' alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
+	 										</div>
+										</div>
+									</div>
+									<div class="col s4 m2">
+										<img loading='lazy' alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
+										<div class="level-reveal">
+											<div class="content">
+												<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
 	 										</div>
 										</div>
 									</div>
@@ -649,31 +853,6 @@ if($lang=="en") {
 										<div class="level-reveal">
 											<div class="content">
 												<?php progressBar($skills_ittools_nexthink_level, ""); ?>
-	 										</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</article>
-					<article id="<?php echo $skills_editiontools_title; ?>">
-						<div class="card">
-							<div class="card-content">
-								<h4 class="brown-text light"><?php echo $skills_editiontools_title; ?></h4>
-								<div class="row text-center">
-									<div class="col s4 m2">
-										<img loading='lazy' alt="Adobe Photoshop logo" src="./assets/img/skills/adobe_photoshop.webp" class="responsive-img"><?php echo $skills_editiontools_photoshop; ?>
-										<div class="level-reveal">
-											<div class="content">
-												<?php progressBar($skills_editiontools_photoshop_level, ""); ?>
-	 										</div>
-										</div>
-									</div>
-									<div class="col s4 m2">
-										<img loading='lazy' alt="Adobe Premiere Pro logo" src="./assets/img/skills/adobe_premiere-pro.webp" class="responsive-img"><?php echo $skills_editiontools_premierepro; ?>
-										<div class="level-reveal">
-											<div class="content">
-												<?php progressBar($skills_editiontools_premierepro_level, ""); ?>
 	 										</div>
 										</div>
 									</div>
@@ -891,9 +1070,6 @@ if($lang=="en") {
 					var langElement = document.getElementsByClassName('lang');
 					
 					document.addEventListener('click', function(event) {
-						for(let i = 0; i < langElement.length; i++) {
-							
-						}
 						var isClickInside1 = langElement[0].contains(event.target);
 						var isClickInside2 = langElement[1].contains(event.target);
 

@@ -163,62 +163,111 @@ $language = "fr";
             //Skills levels
             $skills_level_novice = "Novice";
             $skills_level_intermediate = "Intermédiaire";
-            $skills_level_advanced = "Avancé";
+			$skills_level_advanced = "Avancé";
+			
+			//HTML
+            $skills_html_title = "HTML";
+                $skills_html_html5 = "HTML5";
+					$skills_html_html5_level = "Advanced"; // Must be in English if it's a common level
+					
+			//CSS
+            $skills_css_title = "CSS";
+                $skills_css_css3 = "CSS3";
+					$skills_css_css3_level = "Advanced"; // Must be in English if it's a common level
+				$skills_css_sass = "Sass";
+					$skills_css_sass_level = "Intermediate"; // Must be in English if it's a common level
+				$skills_css_materialize = "Materialize";
+					$skills_css_materialize_level = "Intermediate"; // Must be in English if it's a common level
+					
+			//JavaScript
+            $skills_js_title = "JavaScript";
+                $skills_js_es6 = "ES6";
+					$skills_js_es6_level = "Advanced"; // Must be in English if it's a common level
+				$skills_js_handlebars = "Handlebars";
+					$skills_js_handlebars_level = "Advanced"; // Must be in English if it's a common level
+				$skills_js_jquery = "jQuery";
+					$skills_js_jquery_level = "Intermediate"; // Must be in English if it's a common level
+				$skills_js_react = "React";
+                    $skills_js_react_level = "Novice"; // Must be in English if it's a common level
 
-            //Front-End development
-            $skills_frontend_title = "Programmation Front-End";
-                $skills_frontend_html5 = "HTML5";
-                    $skills_frontend_html5_level = "Advanced"; // Must be in English if not common
-                $skills_frontend_css3 = "CSS3";
-                    $skills_frontend_css3_level = "Advanced"; // Must be in English if not common
-                $skills_frontend_js = "Javascript";
-                    $skills_frontend_js_level = "Advanced"; // Must be in English if not common
+            /*//Front-End
+            $skills_frontend_title = "Autres Front-End";
                 $skills_frontend_java = "Java";
-                    $skills_frontend_java_level = "Intermediate"; // Must be in English if not common
+                    $skills_frontend_java_level = "Intermediate"; // Must be in English if it's a common level
 
-            //Back-End developement
-            $skills_backend_title = "Programmation Back-End";
+            //Back-End
+            $skills_backend_title = "Autres Back-End";
                 $skills_backend_php = "PHP";
-                    $skills_backend_php_level = "Intermediate"; // Must be in English if not common
+                    $skills_backend_php_level = "Intermediate"; // Must be in English if it's a common level
                 $skills_backend_mysql = "MySQL";
-                    $skills_backend_mysql_level = "Intermediate"; // Must be in English if not common
+                    $skills_backend_mysql_level = "Intermediate"; // Must be in English if it's a common level
                 $skills_backend_c = "C";
-                    $skills_backend_c_level = "Novice"; // Must be in English if not common
+					$skills_backend_c_level = "Novice"; // Must be in English if it's a common level*/
+			
+			//Other languages
+            $skills_otherlanguages_title = "Autres langages";
+                $skills_otherlanguages_java = "Java";
+                    $skills_otherlanguages_java_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_otherlanguages_php = "PHP";
+                    $skills_otherlanguages_php_level = "Intermediate"; // Must be in English if it's a common level
+                 $skills_otherlanguages_mysql = "MySQL";
+                    $skills_otherlanguages_mysql_level = "Intermediate"; // Must be in English if it's a common level
+                 $skills_otherlanguages_c = "C";
+                    $skills_otherlanguages_c_level = "Novice"; // Must be in English if it's a common level*/
+					
+			//Mastered technologies
+            $skills_mstech_title = "Technologies maitrisées";
+                $skills_mstech_git = "Git";
+					$skills_mstech_git_level = "Advanced"; // Must be in English if it's a common level
+				$skills_mstech_github = "GitHub";
+					$skills_mstech_github_level = "Advanced"; // Must be in English if it's a common level
+				$skills_mstech_pwa = "PWA";
+                    $skills_mstech_pwa_level = "Advanced"; // Must be in English if it's a common level
 
-			//IT Tools
-			$skills_ittools_title = "Outils IT";
-				$skills_ittools_sccm = "SCCM";
-                    $skills_ittools_sccm_level = "Intermediate"; // Must be in English if not common
-                $skills_ittools_vmware = "VMWare";
-                    $skills_ittools_vmware_level = "Advanced"; // Must be in English if not common
-                $skills_ittools_jira = "Jira";
-                    $skills_ittools_jira_level = "Advanced"; // Must be in English if not common
-                $skills_ittools_confluence = "Confluence";
-                    $skills_ittools_confluence_level = "Intermediate"; // Must be in English if not common
-                $skills_ittools_microsoftad = "Microsoft AD";
-                    $skills_ittools_microsoftad_level = "Intermediate"; // Must be in English if not common
-                $skills_ittools_infoblox = "Infoblox";
-                    $skills_ittools_infoblox_level = "Intermediate"; // Must be in English if not common
-                $skills_ittools_nexthink = "Nexthink";
-                    $skills_ittools_nexthink_level = "Intermediate"; // Must be in English if not common
+			//Build tools & IDE
+            $skills_ide_title = "Build tools & IDE";
+                $skills_ide_vsc = "VS Code";
+                    $skills_ide_vsc_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_ide_sublimetext = "Sublime Text";
+					$skills_ide_sublimetext_level = "Advanced"; // Must be in English if it's a common level
+				$skills_ide_eclipse = "Eclipse";
+                    $skills_ide_eclipse_level = "Advanced"; // Must be in English if it's a common level
 
 			//Edition tools
             $skills_editiontools_title = "Outils d'édition";
                 $skills_editiontools_photoshop = "Photoshop";
-                    $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English if not common
+                    $skills_editiontools_photoshop_level = "Intermediate"; // Must be in English if it's a common level
                 $skills_editiontools_premierepro = "Premiere Pro";
-                    $skills_editiontools_premierepro_level = "Advanced"; // Must be in English if not common
+					$skills_editiontools_premierepro_level = "Advanced"; // Must be in English if it's a common level
+					
+			//IT Tools
+			$skills_ittools_title = "Outils IT";
+				$skills_ittools_sccm = "SCCM";
+                    $skills_ittools_sccm_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_ittools_vmware = "VMWare";
+                    $skills_ittools_vmware_level = "Advanced"; // Must be in English if it's a common level
+                $skills_ittools_jira = "Jira";
+                    $skills_ittools_jira_level = "Advanced"; // Must be in English if it's a common level
+                $skills_ittools_confluence = "Confluence";
+                    $skills_ittools_confluence_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_ittools_microsoftad = "Microsoft AD";
+                    $skills_ittools_microsoftad_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_ittools_infoblox = "Infoblox";
+                    $skills_ittools_infoblox_level = "Intermediate"; // Must be in English if it's a common level
+                $skills_ittools_nexthink = "Nexthink";
+                    $skills_ittools_nexthink_level = "Intermediate"; // Must be in English if it's a common level
 
-			//Language
+
+			//Languages
 			$skills_language_title = "Langues";
                 $skills_language_fr = "Français";
-                    $skills_language_fr_level = "Langue maternelle"; // Must be in English if not common
+                    $skills_language_fr_level = "Langue maternelle"; // Must be in English if it's a common level
                     $skills_language_fr_level_percentage = "100%";
                 $skills_language_en = "Anglais";
-                    $skills_language_en_level = "A2+"; // Must be in English if not common
+                    $skills_language_en_level = "A2+"; // Must be in English if it's a common level
                     $skills_language_en_level_percentage = "50%";
                 $skills_language_nl = "Néerlandais";
-                    $skills_language_nl_level = "Notions"; // Must be in English if not common
+                    $skills_language_nl_level = "Notions"; // Must be in English if it's a common level
                     $skills_language_nl_level_percentage = "15%";
 
 		//End of skills section
