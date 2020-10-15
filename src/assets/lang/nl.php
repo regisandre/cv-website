@@ -2,7 +2,7 @@
 $language = "nl";
 //Index
     //Header
-    $title = "Régis ANDRÉ | Full Stack Developer - Network administrator";
+    $title = "Régis ANDRÉ | Full Stack Developer - System administrator";
     $meta_description = "I'm a passionate who wants to make his dreams come true";
     $url = "regisandre.be/nl";
     $twitter_username = "Sioxox";
@@ -13,7 +13,7 @@ $language = "nl";
     //Navigation
     $full_name = "Régis ANDRÉ";
         //Large nav
-        $large_nav_role = "Full Stack Developer<br>Network administrator";
+        $large_nav_role = "Full Stack Developer<br>System administrator";
         $large_nav_about = "About";
         $large_nav_education = "Education";
         $large_nav_experience = "Experience";
@@ -27,7 +27,7 @@ $language = "nl";
         //End of large nav
 
         //Small nav
-        $small_nav_role = "Full Stack Developer | Network admin.";
+        $small_nav_role = "Full Stack Developer | Sysadmin.";
         $small_nav_about = "About";
         $small_nav_education = "Education";
         $small_nav_experience = "Experience";
@@ -70,7 +70,7 @@ $language = "nl";
             $education_ifapme_title = "IFAPME";
             $education_ifapme_url = "https://www.ifapme.be/";
             $education_ifapme_location = "Charleroi, BE";
-            $education_ifapme_desc_line1 = "2018 - 2020 (In progress)";
+            $education_ifapme_desc_line1 = "2018 - 2020";
             $education_ifapme_desc_line2 = 'Training of business manager in "Network technical advisor"';
             $education_ifapme_desc_line3 = "Management training";
 
@@ -122,6 +122,30 @@ $language = "nl";
 
         //Experience section
         $experience_title = "Experience";
+            //Odoo
+            $experience_odoo_title = "Odoo";
+            $experience_odoo_description = "Odoo is a software suite that allows you to better manage your business";
+            $experience_odoo_url = "https://odoo.com/";
+            $experience_odoo_role = "System administrator, Livestream Manager & Developer";
+            $experience_odoo_period_location = "08/2020 - Current | LLN, BE";
+            $experience_odoo_desc_line1 = "Installation of the network infrastructure of the Antwerp offices";
+            $experience_odoo_desc_line2 = "Livestream Manager for Odoo Experience 2020 (8 simultaneous livestreams)";
+            $experience_odoo_desc_line3 = "Express installation of the Odoo Experience 2020 infrastructure";
+            $experience_odoo_desc_line4 = "(Coming soon) Installation of the LLN office network infrastructure";
+
+            //GHdC
+            $experience_ghdc_title = "GHdC";
+            $experience_ghdc_description = "The Grand Hôpital de Charleroi is a hospital structure with 6 hospital sites";
+            $experience_ghdc_url = "https://ghdc.be/";
+            $experience_ghdc_role = "Business Support Installation";
+            $experience_ghdc_period_location = "09/2018 - 08/2020 | Charleroi, BE";
+            $experience_ghdc_desc_line1 = "Installation of IT equipment";
+            $experience_ghdc_desc_line2 = "Helpdesk";
+            $experience_ghdc_desc_line3 = "Creation of automation scripts";
+            $experience_ghdc_desc_line4 = "Documentation writing";
+            $experience_ghdc_desc_line5 = "Troubleshooting";
+            $experience_ghdc_desc_line6 = "Access management";
+
             //TesiaSquad (2x same job at different period)
             $experience_tesiasquad_title = "TesiaSquad";
             $experience_tesiasquad_description = "The Tesiasquad organizes tournaments, and realizes Gaming events as well as the creation and distribution of derivatives such as goodies, etc.";
@@ -133,19 +157,6 @@ $language = "nl";
             $experience_tesiasquad_desc_line2 = "Writing";
             $experience_tesiasquad_desc_line3 = "Advertisement providing";
             $experience_tesiasquad_desc_line4 = "Customer support";
-
-            //GHdC
-            $experience_ghdc_title = "GHdC";
-            $experience_ghdc_description = "The Grand Hôpital de Charleroi is a hospital structure with 6 hospital sites";
-            $experience_ghdc_url = "https://ghdc.be/";
-            $experience_ghdc_role = "Business Support Installation";
-            $experience_ghdc_period_location = "09/2018 - Current (08/2020) | Charleroi, BE";
-            $experience_ghdc_desc_line1 = "Installation of IT equipment";
-            $experience_ghdc_desc_line2 = "Helpdesk";
-            $experience_ghdc_desc_line3 = "Creation of automation scripts";
-            $experience_ghdc_desc_line4 = "Documentation writing";
-            $experience_ghdc_desc_line5 = "Troubleshooting";
-            $experience_ghdc_desc_line6 = "Access management";
 
             //Municipality of Ham-sur-Heure-Nalinnes
             $experience_hshnmunicipality_title = "Mun. of Ham-sur-Heure-Nalinnes";
@@ -330,28 +341,35 @@ $language = "nl";
             $contact_proemail_url = "mailto:pro@regisandre.be";
             $contact_proemail_icon = "fa-envelope"; //Font Awesome
             $contact_proemail_action = "Email me";
-            $contact_proemail_label = "Régis professional email";
+            $contact_proemail_label = "Régis's professional email";
+
+            //Odoo email
+            $contact_odooemail_title = "Odoo email : rae@odoo.com";
+            $contact_odooemail_url = "mailto:rae@odoo.com";
+            $contact_odooemail_icon = "fa-envelope"; //Font Awesome
+            $contact_odooemail_action = "Email me";
+            $contact_odooemail_label = "Régis's Odoo professional email";
 
             //Personal email
             $contact_persoemail_title = "Perso. email : sioxoxgalkins@gmail.com";
             $contact_persoemail_url = "mailto:sioxoxgalkins@gmail.com";
             $contact_persoemail_icon = "fa-envelope"; //Font Awesome
             $contact_persoemail_action = "Email me";
-            $contact_persoemail_label = "Régis personal email";
+            $contact_persoemail_label = "Régis's personal email";
 
             //Mobile phone
             $contact_mobilephone_title = "Mobile phone :  +32 (0)496/87.81.54";
-            $contact_mobilephone_url = "tel:+32 496 87 81 54";
+            $contact_mobilephone_url = "tel:+32496878154";
             $contact_mobilephone_icon = "fa-phone"; //Font Awesome
             $contact_mobilephone_action = "Call me";
-            $contact_mobilephone_label = "Régis mobile phone";
+            $contact_mobilephone_label = "Régis's mobile phone";
 
             //Professional phone
-            $contact_prophone_title = "Pro. phone :  +32 (0)71/10.83.93";
-            $contact_prophone_url = "tel:+32 71 10 83 93";
+            $contact_prophone_title = "Pro. phone :  +32 (0)2/616.86.70";
+            $contact_prophone_url = "tel:+3226168670";
             $contact_prophone_icon = "fa-phone"; //Font Awesome
             $contact_prophone_action = "Call me";
-            $contact_prophone_label = "Régis professional phone";
+            $contact_prophone_label = "Régis's professional phone";
 
             //Régis's LinkedIn
             $contact_linkedin_title = "Régis's LinkedIn";

@@ -370,6 +370,41 @@ if($lang=="en") {
 				<h3 class="page-title white-text teal"><?php echo $experience_title; ?></h3>
 				<div class="container">
 					<!--Experience example-->
+					<article id="<?php echo $experience_odoo_title; ?>">
+						<div class="card">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2">
+										<a href="<?php echo $experience_odoo_url; ?>" target="_blank"><img loading='lazy' alt="odoo logo" src="./assets/img/experience/odoo.webp" class="responsive-img center-block"></a>
+									</div>
+									<p>
+										<span class="card-title"><a href="<?php echo $experience_odoo_url; ?>" target="_blank" class="teal-text hoverline"><?php echo $experience_odoo_title; ?></a></span>
+									</p>
+								</div>
+								<div class="role brown-text">
+									<?php echo $experience_odoo_role; ?>
+								</div>
+								<p>
+									<em class="grey-text"><?php echo $experience_odoo_description; ?></em>
+								</p>
+								<ul>
+									<li>
+										<?php echo $experience_odoo_desc_line1; ?>
+									</li>
+									<li>
+										<?php echo $experience_odoo_desc_line2; ?>
+									</li>
+									<li>
+										<?php echo $experience_odoo_desc_line3; ?>
+									</li>
+									<li>
+										<?php echo $experience_odoo_desc_line4; ?>
+									</li>
+								</ul>
+							</div>
+							<div class="card-action"><span><?php echo $experience_odoo_period_location; ?></span></div>
+						</div>
+					</article>
 					<article id="<?php echo $experience_ghdc_title; ?>">
 						<div class="card">
 							<div class="card-content">
@@ -1006,6 +1041,9 @@ if($lang=="en") {
 				<div class="container">
 					<p>
 						<a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_proemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_proemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_proemail_label; ?>" href="<?php echo $contact_proemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_proemail_title; ?></a>
+					</p>
+					<p>
+						<a aria-label="<?php echo $contact_odooemail_label; ?>" href="<?php echo $contact_odooemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_odooemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_odooemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_odooemail_label; ?>" href="<?php echo $contact_odooemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_odooemail_title; ?></a>
 					</p>
 					<p>
 						<a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" data-position="top" data-tooltip="<?php echo $contact_persoemail_action; ?>" class="btn-floating btn-large waves-effect waves-light brown tooltipped" target="_blank"><i class="fa <?php echo $contact_persoemail_icon; ?>"></i></a><a aria-label="<?php echo $contact_persoemail_label; ?>" href="<?php echo $contact_persoemail_url; ?>" class="hoverline" target="_blank"><?php echo $contact_persoemail_title; ?></a>

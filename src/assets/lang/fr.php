@@ -2,7 +2,7 @@
 $language = "fr";
 //Index
 	//Header
-    $title = "Régis ANDRÉ | Développeur Full Stack - Administrateur réseau";
+    $title = "Régis ANDRÉ | Développeur Full Stack - Administrateur système";
     $meta_description = "Je suis un passionné qui veut faire de ses rêves une réalité";
     $url = "regisandre.be/fr";
     $twitter_username = "Sioxox";
@@ -13,7 +13,7 @@ $language = "fr";
     //Navigation
     $full_name = "Régis ANDRÉ";
     	//Large nav
-    	$large_nav_role = "Développeur Full Stack<br>Administrateur réseau";
+    	$large_nav_role = "Développeur Full Stack<br>Administrateur système";
     	$large_nav_about = "À propos";
     	$large_nav_education = "Formations";
     	$large_nav_experience = "Expériences pro.";
@@ -27,7 +27,7 @@ $language = "fr";
     	//End of large nav
 
     	//Small nav
-    	$small_nav_role = "Développeur Full Stack | Admin. réseau";
+    	$small_nav_role = "Développeur Full Stack | Admin. système";
     	$small_nav_about = "À propos";
     	$small_nav_education = "Formations";
     	$small_nav_experience = "Expériences pro.";
@@ -70,7 +70,7 @@ $language = "fr";
     		$education_ifapme_title = "IFAPME";
     		$education_ifapme_url = "https://www.ifapme.be/";
     		$education_ifapme_location = "Charleroi, BE";
-    		$education_ifapme_desc_line1 = "2018 - 2020 (En cours)";
+    		$education_ifapme_desc_line1 = "2018 - 2020";
     		$education_ifapme_desc_line2 = 'Formation de chef d\'entreprise en "Conseiller technique PC-réseau"';
     		$education_ifapme_desc_line3 = "Formation de gestion";
 
@@ -122,30 +122,41 @@ $language = "fr";
 
     	//Experience section
     	$experience_title = "Expériences pro.";
-    		//TesiaSquad (2x same job at different period)
-    		$experience_tesiasquad_title = "TesiaSquad";
-    		$experience_tesiasquad_description = "La TesiaSquad organise des tournois, et réalise des évènements Gaming ainsi que la création et la distribution de produits dérivés tel que goodies, etc.";
-    		$experience_tesiasquad_url = "https://www.tesiasquad.eu/";
-    		$experience_tesiasquad_role = "Community Manager<br>Bénévole";
-    		$experience_tesiasquad_period_location_1 = "01/2018 - 02/2018 | Montreuil, FR"; //older
-    		$experience_tesiasquad_period_location_2 = "01/2020 - 04/2020 | Montreuil, FR"; //newer
-    		$experience_tesiasquad_desc_line1 = "Gestion quotidienne des réseaux sociaux";
-    		$experience_tesiasquad_desc_line2 = "Rédaction";
-    		$experience_tesiasquad_desc_line3 = "Création d’annonces";
-    		$experience_tesiasquad_desc_line4 = "Customer support";
+            //Odoo
+            $experience_odoo_title = "Odoo";
+            $experience_odoo_description = "Odoo est une suite de logiciels qui vous permet de mieux gérer votre entreprise";
+            $experience_odoo_url = "https://odoo.com/";
+            $experience_odoo_role = "Administrateur système, Livestream Manager & Développeur";
+            $experience_odoo_period_location = "08/2020 - Actuel | LLN, BE";
+            $experience_odoo_desc_line1 = "Installation de l'infrastructure réseau des bureaux d'Anvers";
+            $experience_odoo_desc_line2 = "Livestream Manager des Odoo Experience 2020 (8 lives en simultanés)";
+            $experience_odoo_desc_line3 = "Installation express de l'infrastructure des Odoo Experience 2020";
+            $experience_odoo_desc_line4 = "(Bientôt) Installation de l'infrastructure réseau des bureaux de LLN";
 
     		//GHdC
     		$experience_ghdc_title = "GHdC";
     		$experience_ghdc_description = "Le Grand Hôpital de Charleroi est une structure hospitalière comportant 6 sites hospitaliers";
     		$experience_ghdc_url = "https://ghdc.be/";
     		$experience_ghdc_role = "Business Support Installation";
-    		$experience_ghdc_period_location = "09/2018 - Actuel (08/2020) | Charleroi, BE";
+    		$experience_ghdc_period_location = "09/2018 - 08/2020 | Charleroi, BE";
     		$experience_ghdc_desc_line1 = "Installation de matériel informatique";
     		$experience_ghdc_desc_line2 = "Helpdesk";
     		$experience_ghdc_desc_line3 = "Création de scripts d'automatisation";
     		$experience_ghdc_desc_line4 = "Rédaction de documentations";
     		$experience_ghdc_desc_line5 = "Troubleshooting";
     		$experience_ghdc_desc_line6 = "Gestion d’accès";
+
+            //TesiaSquad (2x same job at different period)
+            $experience_tesiasquad_title = "TesiaSquad";
+            $experience_tesiasquad_description = "La TesiaSquad organise des tournois, et réalise des évènements Gaming ainsi que la création et la distribution de produits dérivés tel que goodies, etc.";
+            $experience_tesiasquad_url = "https://www.tesiasquad.eu/";
+            $experience_tesiasquad_role = "Community Manager<br>Bénévole";
+            $experience_tesiasquad_period_location_1 = "01/2018 - 02/2018 | Montreuil, FR"; //older
+            $experience_tesiasquad_period_location_2 = "01/2020 - 04/2020 | Montreuil, FR"; //newer
+            $experience_tesiasquad_desc_line1 = "Gestion quotidienne des réseaux sociaux";
+            $experience_tesiasquad_desc_line2 = "Rédaction";
+            $experience_tesiasquad_desc_line3 = "Création d’annonces";
+            $experience_tesiasquad_desc_line4 = "Customer support";
 
     		//Municipality of Ham-sur-Heure-Nalinnes
     		$experience_hshnmunicipality_title = "Cne. d'Ham-sur-Heure-Nalinnes";
@@ -333,6 +344,13 @@ $language = "fr";
 			$contact_proemail_action = "Envoyez moi un email";
 			$contact_proemail_label = "Email professionnel de Régis";
 
+            //Odoo email
+            $contact_odooemail_title = "Email Odoo : rae@odoo.com";
+            $contact_odooemail_url = "mailto:rae@odoo.com";
+            $contact_odooemail_icon = "fa-envelope"; //Font Awesome
+            $contact_odooemail_action = "Envoyez moi un email";
+            $contact_odooemail_label = "Email professionnel Odoo de Régis";
+
 			//Personal email
 			$contact_persoemail_title = "Email perso. : sioxoxgalkins@gmail.com";
 			$contact_persoemail_url = "mailto:sioxoxgalkins@gmail.com";
@@ -342,14 +360,14 @@ $language = "fr";
 
 			//Mobile phone
 			$contact_mobilephone_title = "T° mobile : +32 (0)496/87.81.54";
-			$contact_mobilephone_url = "tel:+32 496 87 81 54";
+			$contact_mobilephone_url = "tel:+32496878154";
 			$contact_mobilephone_icon = "fa-phone"; //Font Awesome
 			$contact_mobilephone_action = "Appelez moi";
 			$contact_mobilephone_label = "Téléphone mobile de Régis";
 
 			//Professional phone
-			$contact_prophone_title = "T° fixe : +32 (0)71/10.83.93";
-			$contact_prophone_url = "tel:+32 71 10 83 93";
+			$contact_prophone_title = "T° fixe : +32 (0)2/616.86.70";
+			$contact_prophone_url = "tel:+3226168670";
 			$contact_prophone_icon = "fa-phone"; //Font Awesome
 			$contact_prophone_action = "Appelez moi";
 			$contact_prophone_label = "Téléphone professionnel de Régis";
